@@ -28,12 +28,18 @@ The following table provides links to our published meeting notes. Each entry in
 
 | Date           | Title                                                                                           | Key Topics                                       |
 |----------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| 2024-10-09     | [ICC Governance Meeting - 09 October 2024](./2024-10-09.md)     | Initial discussions on governance proposals.    |
-| 2024-10-16     | [ICC Governance Meeting - 16 October 2024](./2024-10-16.md)     | Transparency mechanisms and community updates.  |
-| 2024-10-30     | [ICC Governance Meeting - 30 October 2024](./2024-10-30.md)     | Proposal assessments and rationale drafting.    |
-| 2024-11-06     | [ICC Governance Meeting - 06 November 2024](./2024-11-06.md)    | Plutus cost model and SPO governance.           |
-| 2024-11-13     | [ICC Governance Meeting - 13 November 2024](./2024-11-13.md)    | Hard fork renaming and governance processes.    |
-| 2024-11-20     | [ICC Governance Meeting - 20 November 2024](./2024-11-20.md)    | Renaming proposals and rationale refinement.    |
+| 2024-10-09     | [ICC Governance Meeting - 09 October 2024](./2024-10-09.md)     | Initial discussions on governance proposals.         |
+| 2024-10-16     | [ICC Governance Meeting - 16 October 2024](./2024-10-16.md)     | Transparency mechanisms and community updates.       |
+| 2024-10-30     | [ICC Governance Meeting - 30 October 2024](./2024-10-30.md)     | Proposal assessments and rationale drafting.         |
+| 2024-11-06     | [ICC Governance Meeting - 06 November 2024](./2024-11-06.md)    | Plutus cost model and SPO governance.                |
+| 2024-11-13     | [ICC Governance Meeting - 13 November 2024](./2024-11-13.md)    | Hard fork renaming and governance processes.         |
+| 2024-11-20     | [ICC Governance Meeting - 20 November 2024](./2024-11-20.md)    | Renaming proposals and rationale refinement.         |
+| 2025-01-08     | [ICC Governance Meeting - 08 January 2025](./2025-01-08.md)     | Hard fork review, security issue, node update.       |
+| 2025-01-15     | [ICC Governance Meeting - 15 January 2025](./2025-01-15.md)     | Hard fork thresholds, exchange roles, vote timing.   |
+| 2025-01-22     | [ICC Governance Meeting - 22 January 2025](./2025-01-22.md)     | Hard fork vote, security, and next governance steps. |
+| 2025-01-29     | [ICC Governance Meeting - 29 January 2025](./2025-01-29.md)     | New constitution process and internal improvements.  |
+| 2025-02-05     | [ICC Governance Meeting - 05 February 2025](./2025-02-05.md)    | New constitution review, security, and vote stance.  |
+| 2025-02-12     | [ICC Governance Meeting - 12 February 2025](./2025-02-12.md)    | Vote sequencing, legal approvals, post-vote actions. |
 
 More notes will be added to this table as they are published.
 

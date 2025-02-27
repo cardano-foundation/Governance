@@ -40,6 +40,7 @@ The following table provides links to our published meeting notes. Each entry in
 | 2025-01-29     | [ICC Governance Meeting - 29 January 2025](./2025-01-29.md)     | New constitution process and internal improvements.  |
 | 2025-02-05     | [ICC Governance Meeting - 05 February 2025](./2025-02-05.md)    | New constitution review, security, and vote stance.  |
 | 2025-02-12     | [ICC Governance Meeting - 12 February 2025](./2025-02-12.md)    | Vote sequencing, legal approvals, post-vote actions. |
+| 2025-02-19     | [ICC Governance Meeting - 12 February 2025](./2025-02-19.md)    | Treasury growth rate decrease, concerns, and next steps. |
 
 More notes will be added to this table as they are published.
 

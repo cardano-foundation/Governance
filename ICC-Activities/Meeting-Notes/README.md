@@ -40,13 +40,14 @@ The following table provides links to our published meeting notes. Each entry in
 | 2025-01-29     | [ICC Governance Meeting - 29 January 2025](./2025-01-29.md)     | New constitution process and internal improvements.  |
 | 2025-02-05     | [ICC Governance Meeting - 05 February 2025](./2025-02-05.md)    | New constitution review, security, and vote stance.  |
 | 2025-02-12     | [ICC Governance Meeting - 12 February 2025](./2025-02-12.md)    | Vote sequencing, legal approvals, post-vote actions. |
-| 2025-02-19     | [ICC Governance Meeting - 12 February 2025](./2025-02-19.md)    | Treasury growth rate decrease, concerns, and next steps. |
+| 2025-02-19     | [ICC Governance Meeting - 19 February 2025](./2025-02-19.md)    | Treasury growth rate decrease, concerns, and next steps. |
+| 2025-02-26     | [ICC Governance Meeting -26 February 2025](./2025-02-26.md)    | Treasury growth rate decrease, ICC and DRep perspective, and next steps. |
 
 More notes will be added to this table as they are published.
 
 ## Notes on Style and Context  
 
-- **Perspective:** These notes represent the discussions of the Cardano Foundation team as ICC members.  
+- **Perspective:** These notes represent the discussions of the Cardano Foundation team as a DRep and ICC member.  
 - **Transparency:** While the notes summarize discussions, they do not capture every detail or viewpoint.  
 - **Governance Action Rationales:** The detailed rationales for specific governance actions should be reviewed separately as they reflect the Foundation's formal stance on these actions.  
 

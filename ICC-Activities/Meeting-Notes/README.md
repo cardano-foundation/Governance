@@ -41,7 +41,8 @@ The following table provides links to our published meeting notes. Each entry in
 | 2025-02-05     | [ICC Governance Meeting - 05 February 2025](./2025-02-05.md)    | New constitution review, security, and vote stance.  |
 | 2025-02-12     | [ICC Governance Meeting - 12 February 2025](./2025-02-12.md)    | Vote sequencing, legal approvals, post-vote actions. |
 | 2025-02-19     | [ICC Governance Meeting - 19 February 2025](./2025-02-19.md)    | Treasury growth rate decrease, concerns, and next steps. |
-| 2025-02-26     | [ICC Governance Meeting -26 February 2025](./2025-02-26.md)    | Treasury growth rate decrease, ICC and DRep perspective, and next steps. |
+| 2025-02-26     | [ICC Governance Meeting - 26 February 2025](./2025-02-26.md)    | Treasury growth rate decrease, ICC and DRep perspective, and next steps. |
+| 2025-03-05     | [ICC Governance Meeting - 05 March 2025](./2025-03-05.md)    |  Treasury growth rate decrease, Cardano vision and roadmap info action, and DRep delegation strategy |
 
 More notes will be added to this table as they are published.
 

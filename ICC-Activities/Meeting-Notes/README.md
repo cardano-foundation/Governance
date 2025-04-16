@@ -43,7 +43,10 @@ The following table provides links to our published meeting notes. Each entry in
 | 2025-02-19     | [ICC Governance Meeting - 19 February 2025](./2025-02-19.md)    | Treasury growth rate decrease, concerns, and next steps. |
 | 2025-02-26     | [ICC Governance Meeting - 26 February 2025](./2025-02-26.md)    | Treasury growth rate decrease, ICC and DRep perspective, and next steps. |
 | 2025-03-05     | [ICC Governance Meeting - 05 March 2025](./2025-03-05.md)    |  Treasury growth rate decrease, Cardano vision and roadmap info action, and DRep delegation strategy |
-| 2025-03-19     | [ICC Governance Meeting - 19 March 2025](./2025-03-19.md)    |  Cardano Vision and Roadmay for 2025 and beyond, Net Change Limit, Governance Participation |
+| 2025-03-19     | [ICC Governance Meeting - 19 March 2025](./2025-03-19.md)    |  Cardano Vision and Roadmap for 2025 and beyond, Net Change Limit, Governance Participation |
+| 2025-03-26     | [ICC Governance Meeting - 26 March 2025](./2025-03-26.md)    |  Cardano Vision and Roadmap, Net Change Limit, Process Concerns |
+| 2025-04-02     | [ICC Governance Meeting - 02 April 2025](./2025-04-02.md)    |  Previous Governance Action Results, Net Change Limit (NCL) Info Action Review, Voting Timeline & Communication Strategy,  |
+| 2025-04-09     | [ICC Governance Meeting - 09 April 2025](./2025-04-09.md)    |  Net Change Limit Governance Actions, Treasury Withdrawal Governance Actions & Timeline, Budget Proposal Assessment Framework |
 
 More notes will be added to this table as they are published.
 

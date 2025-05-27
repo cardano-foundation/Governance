@@ -47,6 +47,10 @@ The following table provides links to our published meeting notes. Each entry in
 | 2025-03-26     | [ICC Governance Meeting - 26 March 2025](./2025-03-26.md)    |  Cardano Vision and Roadmap, Net Change Limit, Process Concerns |
 | 2025-04-02     | [ICC Governance Meeting - 02 April 2025](./2025-04-02.md)    |  Previous Governance Action Results, Net Change Limit (NCL) Info Action Review, Voting Timeline & Communication Strategy,  |
 | 2025-04-09     | [ICC Governance Meeting - 09 April 2025](./2025-04-09.md)    |  Net Change Limit Governance Actions, Treasury Withdrawal Governance Actions & Timeline, Budget Proposal Assessment Framework |
+| 2025-04-16     | [Governance Advisory Team - Meeting Notes - 16 April 2025](./2025-04-16.md) | NCL status, ICC rationales, CC re-election, proposer mentorship, amendments. |
+| 2025-04-29     | [Governance Advisory Team - Meeting Notes - 29 April 2025](./2025-04-29.md) | New 200M NCL, NCL change frequency, Ekklesia voting, publishing rationales. |
+| 2025-05-07     | [Governance Advisory Team - Meeting Notes - 07 May 2025](./2025-05-07.md)   | NCL proposals (200M & 300M), budget proposals, NCL rationale, conflicts of interest. |
+| 2025-05-21     | [Governance Advisory Team - Meeting Notes - 21 May 2025](./2025-05-21.md)   | 200M NCL proposal, DRep stance, budget implications, CC elections. |
 
 More notes will be added to this table as they are published.
 

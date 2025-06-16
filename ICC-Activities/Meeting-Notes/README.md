@@ -51,6 +51,9 @@ The following table provides links to our published meeting notes. Each entry in
 | 2025-04-29     | [Governance Advisory Team - Meeting Notes - 29 April 2025](./2025-04-29.md) | New 200M NCL, NCL change frequency, Ekklesia voting, publishing rationales. |
 | 2025-05-07     | [Governance Advisory Team - Meeting Notes - 07 May 2025](./2025-05-07.md)   | NCL proposals (200M & 300M), budget proposals, NCL rationale, conflicts of interest. |
 | 2025-05-21     | [Governance Advisory Team - Meeting Notes - 21 May 2025](./2025-05-21.md)   | 200M NCL proposal, DRep stance, budget implications, CC elections. |
+| 2025-05-28     | [Governance Advisory Team - Meeting Notes - 28 May 2025](./2025-05-28.md)   | Amaru proposal, conflicts of interest, budget/treasury logistics, DeFi metadata mismatch. |
+| 2025-06-04     | [Governance Advisory Team - Meeting Notes - 04 June 2025](./2025-06-04.md)   | 7.5M budget proposal, Intersect budget, omnibus withdrawal, DRep diligence. |
+| 2025-06-11     | [Governance Advisory Team - Meeting Notes - 11 June 2025](./2025-06-11.md)   | Governance/treasury updates, constitution amendments, CC election process/candidates. |
 
 More notes will be added to this table as they are published.
 

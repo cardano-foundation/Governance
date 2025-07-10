@@ -1,0 +1,126 @@
+{
+    "@context":
+    {
+        "@language": "en-us",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+        "hashAlgorithm": "CIP100:hashAlgorithm",
+        "body":
+        {
+            "@id": "CIP136:body",
+            "@context":
+            {
+                "references":
+                {
+                    "@id": "CIP100:references",
+                    "@container": "@set",
+                    "@context":
+                    {
+                        "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                        "Other": "CIP100:OtherReference",
+                        "label": "CIP100:reference-label",
+                        "uri": "CIP100:reference-uri",
+                        "RelevantArticles": "CIP136:RelevantArticles"
+                    }
+                },
+                "summary": "CIP136:summary",
+                "rationaleStatement": "CIP136:rationaleStatement",
+                "precedentDiscussion": "CIP136:precedentDiscussion",
+                "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+                "conclusion": "CIP136:conclusion",
+                "internalVote":
+                {
+                    "@id": "CIP136:internalVote",
+                    "@container": "@set",
+                    "@context":
+                    {
+                        "constitutional": "CIP136:constitutional",
+                        "unconstitutional": "CIP136:unconstitutional",
+                        "abstain": "CIP136:abstain",
+                        "didNotVote": "CIP136:didNotVote"
+                    }
+                }
+            }
+        },
+        "authors":
+        {
+            "@id": "CIP100:authors",
+            "@container": "@set",
+            "@context":
+            {
+                "did": "@id",
+                "name": "http://xmlns.com/foaf/0.1/name",
+                "witness":
+                {
+                    "@id": "CIP100:witness",
+                    "@context":
+                    {
+                        "witnessAlgorithm": "CIP100:witnessAlgorithm",
+                        "publicKey": "CIP100:publicKey",
+                        "signature": "CIP100:signature"
+                    }
+                }
+            }
+        }
+    },
+    "hashAlgorithm": "blake2b-256",
+    "body":
+    {
+        "govActionId": "gov_action1mmalzkcxpyn33t05hml2hxpwq0ffv6uu4mhe8sv7guz5nmm4afysqlmepzl",
+        "summary": "The Cardano Foundation, as a DRep, votes NO on the Governance Action (gov_action1mmalzkcxpyn33t05hml2hxpwq0ffv6uu4mhe8sv7guz5nmm4afysqlmepzl), which proposes a bundled budget of approximately 7.5 million ada for several community builder projects.",
+        "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmdUrFByXZ246fHtZB3F71aCzKzdgpknybGguDvtUK7mEt\n\nThe Cardano Foundation supports the principle of empowering community builders and recognizes that many of the individual projects within this bundled submission could hold considerable merit for the ecosystem. However, for the allocation of Treasury funds, proposals must adhere to high standards of administrative clarity, oversight, and operational soundness to ensure accountability and responsible stewardship, in line with the principles outlined in the Cardano Constitution and our own \"Our Cardano\".\n\nOur decision to vote 'NO' on this specific budget proposal is based on the following key considerations:\n\n- **Administrator Designation and Project Consent:** The proposal's plan for Intersect to administer all bundled funds encounters a significant operational challenge. It has been indicated by the proposers of Starstream (one of the key projects named in this bundle) in their own budget proposal submission on GovTool, that they do not consent to Intersect administering their budget. For a bundled budget to be viable, in our view, the consent of all co-proposers to the administrative framework is required. A budget proposer cannot unilaterally assign an administrator to sub-projects without their explicit agreement.\n\n- **Insufficient Clarity in Administrative Framework and Audit Provisions:** The proposal, in its current form, does not provide sufficiently detailed administrative guidelines for the management and disbursement of the 7.5 million ada across the seven diverse projects. Furthermore, the absence of explicit provisions for independent audits is a critical omission.\n\n- **Clarity on Execution and Coordination:** Further clarification is required regarding the proposal's execution plan, the specific mandate of the proposer in bundling these initiatives, and its coordination with broader, established budget processes. \n\nWhile the Foundation values initiatives that aim to support community projects and potentially offer more granular budget reviews, the current proposal does not yet meet the necessary standards for administrative and operational robustness. Our 'NO' vote pertains to the structure and execution of this specific bundled governance action, rather than a negative assessment of the individual merits of the underlying community projects.",
+        "conclusion": "Due to the identified issues the Cardano Foundation votes NO on this budget proposal. We remain committed to supporting community-led growth but believe this must be achieved through more clearly planned and aligned budget proposals.\n\n\n---\n> **_NOTE on 'Internal Voting':_** \n> The fields _constitutional_ and _unconstitutional_ below reflect the CF governance teams' individual opinions whether they are _for_ or _against_ the proposal. \n> Reason for this inconsistency is, that CIP-136 is at the moment only applicable to CC rationales, but we want to record the internal opinions of our DRep assessment transparently as well.\n---",
+        "internalVote":
+        {
+            "constitutional": 3,
+            "unconstitutional": 4,
+            "abstain": 0,
+            "didNotVote": 0,
+            "againstVote": 0
+        },
+        "references":
+        [
+            {
+                "@type": "GovernanceMetadata",
+                "label": "Metadata Anchor URL",
+                "uri": "ipfs://QmaWrgqcQS7jYyLYFpvBiamZ4mCoeasL78qaPASDaJ6dT3"
+            },
+            {
+                "@type": "GovernanceMetadata",
+                "label": "Metadata Anchor Hash",
+                "uri": "4a4c99645a68d29eab6615ac71191cc92c745f92f97cdaf47890be1bad7487a7"
+            },
+            {
+                "@type": "RelevantArticles",
+                "label": "Starstream Proposal in GovTool (Administration and Auditing)",
+                "uri": "https://gov.tools/budget_discussion/4"
+            },
+            {
+                "@type": "RelevantArticles",
+                "label": "Constitution",
+                "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+            },
+            {
+                "@type": "RelevantArticles",
+                "label": "Definitions for the Cardano Constitution ",
+                "uri": "ipfs://bafkreiewp5bgrdiesq6ft3qypykgcjhvfgpp4s5o4yrjrvko4wuhi4iecu"
+            },
+            {
+                "@type": "RelevantArticles",
+                "label": "“Our Cardano” by the Cardano Foundation",
+                "uri": "https://cardanofoundation.org/our-cardano"
+            },
+            {
+                "@type": "Other",
+                "label": "Rationale PDF",
+                "uri": "ipfs://QmdUrFByXZ246fHtZB3F71aCzKzdgpknybGguDvtUK7mEt"
+            }
+        ]
+    },
+    "authors":
+    [
+        {
+            "name": "Cardano Foundation"
+        }
+    ]
+}

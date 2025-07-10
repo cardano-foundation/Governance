@@ -1,0 +1,128 @@
+{
+    "@context":
+    {
+        "@language": "en-us",
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+        "hashAlgorithm": "CIP100:hashAlgorithm",
+        "body":
+        {
+            "@id": "CIP136:body",
+            "@context":
+            {
+                "references":
+                {
+                    "@id": "CIP100:references",
+                    "@container": "@set",
+                    "@context":
+                    {
+                        "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                        "Other": "CIP100:OtherReference",
+                        "label": "CIP100:reference-label",
+                        "uri": "CIP100:reference-uri",
+                        "RelevantArticles": "CIP136:RelevantArticles"
+                    }
+                },
+                "summary": "CIP136:summary",
+                "rationaleStatement": "CIP136:rationaleStatement",
+                "precedentDiscussion": "CIP136:precedentDiscussion",
+                "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+                "conclusion": "CIP136:conclusion",
+                "internalVote":
+                {
+                    "@id": "CIP136:internalVote",
+                    "@container": "@set",
+                    "@context":
+                    {
+                        "constitutional": "CIP136:constitutional",
+                        "unconstitutional": "CIP136:unconstitutional",
+                        "abstain": "CIP136:abstain",
+                        "didNotVote": "CIP136:didNotVote"
+                    }
+                }
+            }
+        },
+        "authors":
+        {
+            "@id": "CIP100:authors",
+            "@container": "@set",
+            "@context":
+            {
+                "did": "@id",
+                "name": "http://xmlns.com/foaf/0.1/name",
+                "witness":
+                {
+                    "@id": "CIP100:witness",
+                    "@context":
+                    {
+                        "witnessAlgorithm": "CIP100:witnessAlgorithm",
+                        "publicKey": "CIP100:publicKey",
+                        "signature": "CIP100:signature"
+                    }
+                }
+            }
+        }
+    },
+    "hashAlgorithm": "blake2b-256",
+    "body":
+    {
+        "govActionId": "gov_action1fpqwxp2kxvnntr8hpkh9q9djm78ccdww7qlhg5safugh4stmcwzqql5lauu",
+        "summary": "We vote Abstain on this budget info action “Cardano Treasury DeFi Liquidity Budget” due to a metadata hash mismatch preventing content verification and a potential conflict of interest.",
+        "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmY1BiGTftgUa5nxYTQT2rHZ5MQQdcMKFeb9yU3zjNWNqA\n\nThis Info Governance Action (gov_action1fpqwxp2kxvnntr8hpkh9q9djm78ccdww7qlhg5safugh4stmcwzqql5lauu) proposes a 50M ADA budget to establish a DeFi liquidity fund, with the stated aim of enhancing on-chain liquidity on Cardano. The proposal outlines a 7-person committee to administer these funds, intended to be managed via a multi-signature wallet, and lists the Cardano Foundation's CTO as a member of this administrating committee. However, a foundational assessment of this proposal is immediately confronted by a critical procedural defect: the metadata anchor hash provided with the on-chain proposal (97df3a30b767ee5b8e2b9fde824d91d3366985243ed73c06b257c2163f9045db) has been verified to not match the hash of the content currently available at the specified GitHub URL (https://raw.githubusercontent.com/theeldermillenial/2025-liquidity-budget/df0b26d8796b19b566008ea9eaa8f17fef2cb6d4/info.jsonld — which actually hashes to 791c6f0adc9aa94366231d9213b06d48dce0b7fdbe6306cbc32ce90867ac54ad). This discrepancy fundamentally compromises the ability to reliably verify the exact off-chain details submitted for community and Constitutional Committee consideration.\n\n## Constitutional Alignment\nThe identified procedural flaw and potential conflict significantly impact the assessment:\n- Article III, Section 5: This article mandates a verifiable link (\"URL and hash\") and content identicality between the on-chain action and off-chain documentation. A hash mismatch, as reported and verified, constitutes a direct failure to meet this requirement. Without a reliable link to the intended off-chain content, a full assessment of its \"sufficient rationale\" or alignment with other constitutional provisions (e.g., Article IV budget rules) is impeded.\n- Article VII, Section 1 & 4: While Info Actions are not blocked by the CC and are technically neither constitutional nor unconstitutional (Art VII, Sec 4), the CC is still tasked with assessing the constitutionality of all governance actions, including the substance of Info Actions (Art VII, Sec 1). A fundamental procedural failure like a hash mismatch makes a confident assessment of the substance challenging. Furthermore, the duty of CC members to uphold the Constitution and act with integrity implies avoiding or managing conflicts of interest.",
+        "precedentDiscussion": "While past actions with mutable links have sometimes been accepted (often with reservations and CC-provided mitigations like IPFS pinning), precedent does not extend to accepting actions where there is an active mismatch between the on-chain hash and the content at the linked URL. Such a mismatch breaks the chain of integrity. Regarding conflicts of interest, the current governance framework calls for transparency, and direct involvement of a CC member's organizational executive in a grant-receiving body warrants careful consideration and, in this case, contributes to the decision to abstain.",
+        "counterargumentDiscussion": "Strong arguments exist for an outright 'No' vote, primarily:\n\n- **Hash Mismatch as a Definitive Violation:** The discrepancy between the on-chain hash and the off-chain content is a clear and severe violation of Article III, Section 5. This alone could be deemed sufficient grounds for finding the proposal procedurally unconstitutional, as the content being voted upon cannot be definitively verified.\n\n- **Integrity of Governance:** Allowing a proposal with a hash mismatch to proceed, even as an Info Action, could set a damaging precedent for procedural diligence and the verifiability of governance actions.\nWhile some may argue the hash mismatch could be a minor technical error and that the CC could exercise flexibility, the imperative for verifiable, immutable data linkage in governance is paramount. The involvement of CF personnel as beneficiaries also strongly supports abstention from a CF perspective to avoid any perception of self-dealing.",
+        "conclusion": "Given the critical procedural issue of the reported metadata hash mismatch, which prevents definitive verification of the off-chain proposal content, and the significant potential conflict of interest due to the proposed role of Cardano Foundation personnel in administering the requested funds, an Abstain vote is the most appropriate course of action. While the goal of enhancing DeFi liquidity is acknowledged, these fundamental procedural and governance concerns preclude an affirmative opinion on the proposal's constitutionality at this time.",
+        "internalVote":
+        {
+            "constitutional": 0,
+            "unconstitutional": 2,
+            "abstain": 5,
+            "didNotVote": 0,
+            "againstVote": 0
+        },
+        "references":
+        [
+            {
+                "@type": "RelevantArticles",
+                "label": "Preamble",
+                "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+            },
+            {
+                "@type": "RelevantArticles",
+                "label": "Article III, Section 5 ",
+                "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+            },
+            {
+                "@type": "RelevantArticles",
+                "label": "Article VII, Section 1 & 4",
+                "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+            },
+            {
+                "@type": "RelevantArticles",
+                "label": "Article IV",
+                "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+            },
+            {
+                "@type": "GovernanceMetadata",
+                "label": "Metadata Anchor URL",
+                "uri": "https://raw.githubusercontent.com/theeldermillenial/2025-liquidity-budget/df0b26d8796b19b566008ea9eaa8f17fef2cb6d4/info.jsonld"
+            },
+            {
+                "@type": "RelevantArticles",
+                "label": "Metadata Anchor Hash",
+                "uri": "97df3a30b767ee5b8e2b9fde824d91d3366985243ed73c06b257c2163f9045db"
+            },
+            {
+                "@type": "Other",
+                "label": "Rationale PDF",
+                "uri": "ipfs://QmY1BiGTftgUa5nxYTQT2rHZ5MQQdcMKFeb9yU3zjNWNqA"
+            }
+        ]
+    },
+    "authors":
+    [
+        {
+            "name": "Cardano Foundation"
+        }
+    ]
+}

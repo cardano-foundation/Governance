@@ -54,6 +54,10 @@ The following table provides links to our published meeting notes. Each entry in
 | 2025-05-28     | [Governance Advisory Team - Meeting Notes - 28 May 2025](./2025-05-28.md)   | Amaru proposal, conflicts of interest, budget/treasury logistics, DeFi metadata mismatch. |
 | 2025-06-04     | [Governance Advisory Team - Meeting Notes - 04 June 2025](./2025-06-04.md)   | 7.5M budget proposal, Intersect budget, omnibus withdrawal, DRep diligence. |
 | 2025-06-11     | [Governance Advisory Team - Meeting Notes - 11 June 2025](./2025-06-11.md)   | Governance/treasury updates, constitution amendments, CC election process/candidates. |
+| 2025-06-18     | [Governance Advisory Team - Meeting Notes - 18 June 2025](./2025-06-18.md)   | CC election recap, ECC conflict of interest, treasury proposal review efficiency, future budget planning, upcoming Amaru & DeFi actions. |
+| 2025-06-25     | [Governance Advisory Team - Meeting Notes - 25 June 2025](./2025-06-25.md)   | CC election voting process update; rationale for off-chain pre-vote; Amaru treasury withdrawal review; strategy for upcoming Intersect treasury withdrawals. |
+| 2025-07-02     | [Governance Advisory Team - Meeting Notes - 02 July 2025](./2025-07-02.md)   | Amaru treasury withdrawal governance action; CC election credentials; voting logistics for 39 treasury proposals (discrepancies & unified rationale); CF DRep profile update. |
+| 2025-07-09     | [Governance Advisory Team - Meeting Notes - 09 July 2025](./2025-07-09.md)   | Amaru treasury withdrawal governance action; GovTools budget info action (funding discussion, opposition, consequences, alternatives & system flaws); 39 treasury withdrawals from Intersect. |
 
 More notes will be added to this table as they are published.
 

@@ -58,6 +58,9 @@ The following table provides links to our published meeting notes. Each entry in
 | 2025-06-25     | [Governance Advisory Team - Meeting Notes - 25 June 2025](./2025-06-25.md)   | CC election voting process update; rationale for off-chain pre-vote; Amaru treasury withdrawal review; strategy for upcoming Intersect treasury withdrawals. |
 | 2025-07-02     | [Governance Advisory Team - Meeting Notes - 02 July 2025](./2025-07-02.md)   | Amaru treasury withdrawal governance action; CC election credentials; voting logistics for 39 treasury proposals (discrepancies & unified rationale); CF DRep profile update. |
 | 2025-07-09     | [Governance Advisory Team - Meeting Notes - 09 July 2025](./2025-07-09.md)   | Amaru treasury withdrawal governance action; GovTools budget info action (funding discussion, opposition, consequences, alternatives & system flaws); 39 treasury withdrawals from Intersect. |
+| 2025-07-16     | [Governance Advisory Team - Meeting Notes - 16 July 2025](./2025-07-16.md)   | Amaru & 39 treasury withdrawals, GovTools & Tempo.vote budget actions, 2026 NCL, Oversight Committee role/future. |
+| 2025-07-23     | [Governance Advisory Team - Meeting Notes - 23 July 2025](./2025-07-23.md)   | GovTools & Tempo.vote budget actions, constitutionality of Tempo, 39 treasury withdrawals (on-chain vs off-chain voting), upcoming Constitutional Committee update. |
+| 2025-07-30     | [Governance Advisory Team - Meeting Notes - 30 July 2025](./2025-07-30.md)   | CF DRep vote on 39 treasury withdrawals, 'Update CC' action, status of GovTools/Tempo proposals, RFP process for budget allocation, Haus proposal vote integrity. |
 
 More notes will be added to this table as they are published.
 

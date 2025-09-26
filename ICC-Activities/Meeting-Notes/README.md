@@ -62,6 +62,9 @@ The following table provides links to our published meeting notes. Each entry in
 | 2025-07-23     | [Governance Advisory Team - Meeting Notes - 23 July 2025](./2025-07-23.md)   | GovTools & Tempo.vote budget actions, constitutionality of Tempo, 39 treasury withdrawals (on-chain vs off-chain voting), upcoming Constitutional Committee update. |
 | 2025-07-30     | [Governance Advisory Team - Meeting Notes - 30 July 2025](./2025-07-30.md)   | CF DRep vote on 39 treasury withdrawals, 'Update CC' action, status of GovTools/Tempo proposals, RFP process for budget allocation, Haus proposal vote integrity. |
 | 2025-08-13     | [Governance Advisory Team - Meeting Notes - 13 August 2025](./2025-08-13.md)   | Governance actions review (32/39 withdrawals enacted/ratified), reconsideration of NFTCDN vote, new constitution proposal debate, layered update approach, decentralization concerns. |
+| 2025-08-20 | [ICC Governance Meeting - 20 August 2025](./2025-08-20.md) | Four live actions; urgent CC update timing; DRep/SPO voting strategy & conflicts; SNEK treasury withdrawals (eligibility & representation). |
+| 2025-08-27 | [ICC Governance Meeting - 27 August 2025](./2025-08-27.md) | ICC term timing & prioritization; SNEK withdrawals resubmission plan; new constitution action (75% DRep threshold). |
+| 2025-09-03 | [ICC Governance Meeting - 03 September 2025](./2025-09-03.md) | Transition to new CC (Sept 6); SNEK outcomes & comms; “Cardano in Oceania” budget/admin review. |
 
 More notes will be added to this table as they are published.
 

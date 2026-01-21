@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP129": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0129/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "govActionId": "CIP129:governance-action-identifiers",
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote",
+            "againstVote": "CIP136:againstVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action16f69yf2f35w9ds8sr05ewyr55jg5f439mu8882rv295fvf8m4kcqql7y6nc",
+    "summary": "The Cardano Foundation, as a DRep, votes NO. While we support the principle of CC compensation, this proposal lacks an explanation of how the requested amount was calculated, an accountability framework and it risks creating misaligned incentives. We encourage the proposers to revisit this proposal.",
+    "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmYCnQDYKk1RMjxGV5XoxkG41wv8f8T9JK7GyPXd6iXqUs\n\nThis governance action has successfully initiated an important, ecosystem-wide discussion on how to fairly and sustainably compensate key governance roles. The Cardano Constitution explicitly provides for the compensation of the Constitutional Committee (CC). The Cardano Foundation, acting as a DRep, supports this principle.\n\nOur **NO** vote is not a rejection of the principle of compensation but of this specific implementation. Our concerns are based on the following points:\n- **Improper Sequencing:** This proposal is premature as it requests funding before a necessary accountability framework is in place. Compensating these key role players without a framework against which to hold them accountable for performing their duties is unwise. A public-facing framework defining the CC's duties, minimum participation standards, and conditions for non-payment should be established before a budget for compensation is approved.\n- **Misaligned Incentive Structure:** A high, pre-determined compensation amount of 200,000 ada per seat without an accountability framework risks creating a problematic incentive structure. It may attract future candidates who are i) unsuited to the role (by background, incentive or expertise) and ii) primarily motivated by the payment rather than by commitment to fulfilling their role  - potentially compromising the quality of the CC in subsequent terms.\n- **Potential Governance Design Issue:** The proposal's justification of a high workload points to a potential governance design flaw. If the burden on a small number of CC members is unsustainable, the solution should be to fix the governance design (e.g., by expanding the CC to distribute the load, and incentivising CC members to take decisions efficiently) rather than compensating a few members to endure a structural bottleneck.\n- **Lack of a Calculation for the Proposed Amount:** The proposal does not explain how the 200,000 ada figure per seat was calculated. This makes it hard to know whether this figure is based on estimated time and effort, and if it considers single-person CC members vs collectives. The approximate effort in reviewing GAs per seat should be equal and not differ drastically. \n\n## Recommendations for a Future Submission\nThis \"no\" vote is intended to be constructive. We believe a supportable CC budget is achievable and would be prepared to review a future submission that addresses the following key points:\n- **Establish an Accountability Framework First:** A future proposal should be preceded by, or at least contain, a clear public-facing framework, such as a formal Code of Conduct. This document should define the minimum duties, participation levels (e.g., voting frequency, rationale submission), and specific conditions under which a member would not be eligible for compensation.\n- **Propose a Modular and Flexible Payment Structure:** Instead of a single, automatic budget, a more defensible model would be modular (e.g., paid per governance action reviewed on a monthly basis) and tied to active participation. This ensures compensation is for services rendered and allows the system to flexibly manage costs if a member resigns or becomes inactive.\n- **Address the Governance Design:** We encourage a broader discussion on the underlying problem of workload. A long-term solution should focus on improving the governance design itself, which may in turn lead to a more sustainable and cost-effective compensation model.",
+    "conclusion": "The Cardano Foundation as a DRep votes NO on this governance action. We believe this conversation is vital, but this specific proposal is not the right model for ensuring the long-term, independent, and sustainable operation of the Constitutional Committee. We are committed to working with the community to develop a more appropriate and robust framework and encourage the proposers to use this feedback to craft a new, more supportable submission.\n\n---\n\n> **_NOTE on 'Internal Voting':_**\n> The fields _constitutional_ and _unconstitutional_ below reflect the CF governance teams' individual opinions whether they are _for_ or _against_ the proposal. Reason for this inconsistency is, that CIP-136 is at the moment only applicable to CC rationales, but we want to record the internal opinions of our DRep assessment transparently as well.",
+    "internalVote": {
+      "constitutional": 0,
+      "unconstitutional": 4,
+      "abstain": 0,
+      "didNotVote": 1,
+      "againstVote": 0
+    },
+    "references": [
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor URL (IPFS): ",
+        "uri": "QmZdZ387ZfcDwQ4YYSPAvWX42gX1w8nGPdhbwk7gxTtNBE"
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor Hash: ",
+        "uri": "a1eb9dd13a5ca3f009a261ddc07575190f98a42b94d180815fb5f2c0805b907c"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "Cardano Constitution (IPFS): ",
+        "uri": "bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "“Our Cardano” by the Cardano Foundation: ",
+        "uri": "https://cardanofoundation.org/our-cardano"
+      },
+      {
+        "@type": "Other",
+        "label": "Rationale PDF",
+        "uri": "ipfs://QmYCnQDYKk1RMjxGV5XoxkG41wv8f8T9JK7GyPXd6iXqUs"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Foundation"
+    }
+  ]
+}

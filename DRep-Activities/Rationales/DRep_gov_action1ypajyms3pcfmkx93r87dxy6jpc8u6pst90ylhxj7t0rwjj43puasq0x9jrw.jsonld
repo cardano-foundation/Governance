@@ -1,0 +1,111 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action1ypajyms3pcfmkx93r87dxy6jpc8u6pst90ylhxj7t0rwjj43puasq0x9jrw",
+    "summary": "The Cardano Foundation, as a DRep, votes YES on the New Constitution GA. We believe it is an improvement to the current version. Our vote is based on a thorough review, in line with the principle that the Constitution is a living document designed for periodic refinement by the community.",
+    "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/Qma7zK4H6CuvqBqDkmkErtwegHcoAuvzTaQAEnUjGmhDVa\n\nThis governance action has generated significant community discussion, much of which is focused on the drafting process, as it did not include global workshops and voting at a convention. We believe that governance documents for a decentralized infrastructure like Cardano should be improved incrementally and that any community member should be allowed to make suggestions. While in-person processes have their place and can be useful, we do not agree that this should be a requirement for any proposed changes.\n\nConsequently, we focused on evaluating the substance of a proposal and are voting on whether it represents a net positive for the Cardano ecosystem. In our assessment this proposal followed the amendment process as it is currently required by the Constitution. While there were no workshops or conventions, the drafting process involved months of public, asynchronous feedback via shared documents where anyone could contribute. We welcome further refinement of the constitutional amendment process and we see the Civics Committee as a potential body to lead this work. The Cardano Foundation is eager to collaborate with them to explore a structured process for future amendments. However, at this stage we do not wish to vote against an amendment which we believe is a net positive for the system simply because it did not follow the previous drafting process.\n\n\n## Assessment of the Proposed Version\nThe  new version makes several key enhancements that we believe will make Cardano's governance more effective:\n1. **A More Efficient Treasury Process:** The proposal streamlines the treasury process by removing the separate \"budget info action\" and integrating its requirements directly into a single, more comprehensive treasury withdrawal governance action type. This reduces bureaucracy while maintaining scrutiny, as the new draft introduces stricter informational requirements for all treasury withdrawals. Some of these requirements will provide DReps with greater certainty as to who is receiving the withdrawal and what they intend to use it for, thereby providing better transparency for the ecosystem on the use of treasury funds.\n\n2. **Enhanced Clarity and Governance Hygiene:** The draft introduces clearer definitions, fixes many inconsistencies, and removes outdated or unused clauses. These changes make the Constitution a more precise and self-contained document while reducing ambiguity for all governance participants. \n\n3. **Upholding Core Governance Principles:** This update refines the Constitution's mechanics without altering the fundamental balance of power or the core roles of DReps, SPOs, and the Constitutional Committee.",
+    "conclusion": "The Cardano Foundation, as a DRep, votes **YES** on the New Constitution Governance Action. We see it as an incremental improvement that aligns with the core principle of the Constitution as a living document. This vote represents a principled decision to support progress and affirm that, in a decentralized ecosystem, constructive proposals should be judged on their substance and merit.\n\n\n---\n> **_NOTE on 'Internal Voting':_**\n> The fields _constitutional_ and _unconstitutional_ below reflect the CF governance teams' individual opinions whether they are _for_ or _against_ the proposal.\nReason for this inconsistency is, that CIP-136 is at the moment only applicable to CC rationales, but we want to record the internal opinions of our DRep assessment transparently as well.",
+    "internalVote": {
+      "constitutional": 4,
+      "unconstitutional": 2,
+      "abstain": 0,
+      "didNotVote": 1,
+      "againstVote": 0
+    },
+    "references": [
+      {
+        "@type": "RelevantArticles",
+        "label": "Cardano Constitution",
+        "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor URL",
+        "uri": "ipfs://bafkreig4vjv636y7yhc3va6u4u6euluzs7wxwas5ntwqrvyzafjnnbcsgu"
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor Hash",
+        "uri": "37669749785f79cb3eb5005779095fbd733156bdaf9e20e55f7d233cb5946874"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "New Cardano Constitution",
+        "uri": "ipfs://bafkreiat3w662d6jnsuz2kpra2h5ve4xxij4jkl7kylf7jk6gw43q5b5ny"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "New Cardano Constitution Anchor Hash",
+        "uri": "170379f4c41a1833743837770e5bdb034c089a8edc835174e73a9c5b692676cc"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "“Our Cardano” by the Cardano Foundation",
+        "uri": "https://cardanofoundation.org/our-cardano"
+      },
+      {
+        "@type": "Other",
+        "label": "Rationale PDF",
+        "uri": "ipfs://Qma7zK4H6CuvqBqDkmkErtwegHcoAuvzTaQAEnUjGmhDVa"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Foundation"
+    }
+  ]
+}

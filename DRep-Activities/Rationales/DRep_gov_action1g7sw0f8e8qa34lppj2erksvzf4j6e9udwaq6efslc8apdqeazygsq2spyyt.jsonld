@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action1g7sw0f8e8qa34lppj2erksvzf4j6e9udwaq6efslc8apdqeazygsq2spyyt",
+    "summary": "The Cardano Foundation votes YES on the governance action “Replace Interim Constitutional Committee” to ratify the results of the recent Constitutional Committee election.",
+    "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmWrt2H3SzGXgXZVL4T5Z13vnRwY3KjZW9tWroMKjXB83m\n\nAs previously outlined, the Cardano Foundation participated actively in this election by developing an assessment methodology to assess the nominated candidates and endorsing seven of these candidates who we believed are best suited for the role.\nThe final composition of the proposed committee is aligned with our recommendations, giving us confidence in the body's collective expertise and ability to uphold the Cardano Constitution. Ratifying this governance action is the necessary final step in transitioning from an appointed interim committee to a community-elected one, marking a significant milestone in Cardano's journey toward decentralized governance. We support this action to ensure a seamless transition and uphold the integrity of the electoral process.\n\n## Transparency and Conflict of Interest Management\nIt is important to note that two members of the Cardano Foundation's governance advisory team, Nicolas Cerny and Matthias Benkort, have recused themselves from this vote and did not contribute to this rationale. This is due to their direct involvement as members of the proposed Constitutional Committee, Matthias as an individual member, and Nicolas as part of the Ace Alliance.\n\n### Internal Vote Summary: \n- Votes in Favor: 5\n- Votes Against: 0\n- Abstentions: 0\n- Votes Not to Vote: 0\n- Not Voted: 2 (2 members recused themselves from this proposal)",
+    "references": [
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor URL (IPFS)",
+        "uri": "ipfs://bafkreicw6kinbtfwxygoj4jf7khextfq6a3yirlhkldhd7zizdq4xu2ghm"
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor Hash",
+        "uri": "2b225f65102d3eaffc87a84029237926e391d38fc2edb01b70004815e976339f"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "The Cardano Foundation’s Vote for the Constitutional Committee",
+        "uri": "https://cardanofoundation.org/blog/constitutional-committee-vote"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "“Our Cardano” by the Cardano Foundation",
+        "uri": "https://cardanofoundation.org/our-cardano"
+      },
+      {
+        "@type": "Other",
+        "label": "Rationale PDF",
+        "uri": "ipfs://QmWrt2H3SzGXgXZVL4T5Z13vnRwY3KjZW9tWroMKjXB83m"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Foundation"
+    }
+  ]
+}

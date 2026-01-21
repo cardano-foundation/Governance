@@ -1,121 +1,106 @@
 {
-    "@context":
-    {
-        "@language": "en-us",
-        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
-        "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
-        "hashAlgorithm": "CIP100:hashAlgorithm",
-        "body":
-        {
-            "@id": "CIP136:body",
-            "@context":
-            {
-                "references":
-                {
-                    "@id": "CIP100:references",
-                    "@container": "@set",
-                    "@context":
-                    {
-                        "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
-                        "Other": "CIP100:OtherReference",
-                        "label": "CIP100:reference-label",
-                        "uri": "CIP100:reference-uri",
-                        "RelevantArticles": "CIP136:RelevantArticles"
-                    }
-                },
-                "summary": "CIP136:summary",
-                "rationaleStatement": "CIP136:rationaleStatement",
-                "precedentDiscussion": "CIP136:precedentDiscussion",
-                "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
-                "conclusion": "CIP136:conclusion",
-                "internalVote":
-                {
-                    "@id": "CIP136:internalVote",
-                    "@container": "@set",
-                    "@context":
-                    {
-                        "constitutional": "CIP136:constitutional",
-                        "unconstitutional": "CIP136:unconstitutional",
-                        "abstain": "CIP136:abstain",
-                        "didNotVote": "CIP136:didNotVote"
-                    }
-                }
-            }
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
         },
-        "authors":
-        {
-            "@id": "CIP100:authors",
-            "@container": "@set",
-            "@context":
-            {
-                "did": "@id",
-                "name": "http://xmlns.com/foaf/0.1/name",
-                "witness":
-                {
-                    "@id": "CIP100:witness",
-                    "@context":
-                    {
-                        "witnessAlgorithm": "CIP100:witnessAlgorithm",
-                        "publicKey": "CIP100:publicKey",
-                        "signature": "CIP100:signature"
-                    }
-                }
-            }
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
         }
+      }
     },
-    "hashAlgorithm": "blake2b-256",
-    "body":
-    {
-        "govActionId": "gov_action1u9x73kwufaxa70lfy59g4ynwyrcsaxdcd0gxzzmh67s9fxq4j8hqqk2phgh",
-        "summary": "The Cardano Foundation, as a DRep, votes **YES** on the Governance Action proposing the \"Cardano Blockchain Ecosystem Budget - 275M ada Administered by Intersect\" (gov_action1u9x73kwufaxa70lfy59g4ynwyrcsaxdcd0gxzzmh67s9fxq4j8hqqk2phgh).",
-        "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmXBdJW3vc388juDQ2ByV4hZTTG3XJUA8QbGAtaMYsA32p\n\nOur yes vote is a pragmatic decision to ensure that: the crucial step of establishing a budget is taken, funding for 2025 can be received, and to demonstrate progress in on-chain governance - despite our significant reservations about the budget process that led to this proposal.\n\n## Reasoning\n\nWhile the Cardano Foundation did not support all 39 proposals contained within this omnibus budget during off-chain signaling, we recognize the damage that further delays in approving a 2025 budget would cause to ecosystem momentum and confidence. This vote is an acknowledgment of the urgent need for governance progress. However, our support for this budget action is not a guarantee of future support should the budgeting and withdrawal process be repeated in future cycles without improvement. In particular, the significant process uncertainty introduced by the various pivots by Intersect during this year's process are unacceptable in the future.\n\nOur decision is based on these key considerations:\n- **A Pragmatic Decision to Enable Progress:** The 2025 budget process has been less than ideal, marked by uncertainty and pivots. At this late stage, passing a budget is necessary to fund critical development and maintenance, and to show that Cardano’s decentralized governance framework can deliver on its core functions.\n\n- **Expectations for Treasury Withdrawals:** The Foundation’s 'YES' vote on this budget info action does not endorse a single, omnibus treasury withdrawal for the full 275 million ada. To ensure proper oversight and accountability, we advocate for dividing it into two support brackets: proposals above 67% and another between 50%+1 and 67%, along with subsequent treasury withdrawals.\n\n- **Commitment to Financial Transparency:** To ensure accountability, the Foundation expects that vendor contracts be made public, with personal information redacted to protect confidentiality. This framework must also include comprehensive progress reporting and a clear process for transparently accounting for any unused funds, which should be returned to the Treasury.\n\n- **Emphasis on Delivery Assurance:** Given the significant ada amounts requested for the 39 proposals, it is important that Intersect, if acting as an administrator, makes sure contracts with ada recipients are enforceable and that delivery of deliverables can be ensured. This should occur in a public capacity so the community can collectively hold vendors accountable for their performance.\n\n- **Advocacy for an Improved 2026 Budget Process:** The 2025 budget process has highlighted the need for fundamental reform. We advocate that the 2026 process shifts from the current \"vendor-led\" model to a more effective \"purpose-led\" approach. This improved model requires first prioritizing strategic work packages, then inviting competitive proposals to deliver on them, and should be supported by a framework requiring detailed budget breakdowns and clear vendor obligations. This will foster greater transparency, competition, and alignment with strategic ecosystem goals. To enhance long-term planning, we also recommend exploring a longer, 24-month rolling budget cycle to avoid continuous, year-round budget workstreams.",
-        "conclusion": "The Cardano Foundation votes **YES** on this budget proposal as a pragmatic measure to avoid further stagnation and fund the essential work for 2025. This decision is made with the expectation that subsequent treasury withdrawals will be appropriately segmented to allow for diligent DRep scrutiny, and that the entire budget process for 2026 will be fundamentally redesigned to be more purpose-led, accountable, transparent, and effective.\n\n---\n> **_NOTE on 'Internal Voting':_**\n> The fields _constitutional_ and _unconstitutional_ below reflect the CF governance teams' individual opinions whether they are _for_ or _against_ the proposal.\nReason for this inconsistency is, that CIP-136 is at the moment only applicable to CC rationales, but we want to record the internal opinions of our DRep assessment transparently as well.\n---",
-        "internalVote":
-        {
-            "constitutional": 5,
-            "unconstitutional": 0,
-            "abstain": 0,
-            "didNotVote": 2,
-            "againstVote": 0
-        },
-        "references":
-        [
-            {
-                "@type": "GovernanceMetadata",
-                "label": "Metadata Anchor URL",
-                "uri": "ipfs://bafkreibeajhkes7bxjlkghkingcgltqcwazz2ya5oknveqwt5nont7tg6u"
-            },
-            {
-                "@type": "GovernanceMetadata",
-                "label": "Metadata Anchor Hash",
-                "uri": "b95d8f8e324e9863905f16dbad94c1f25b28b933ae842e6f8ce9841c8da5b197"
-            },
-            {
-                "@type": "RelevantArticles",
-                "label": "Cardano Constitution",
-                "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
-            },
-            {
-                "@type": "RelevantArticles",
-                "label": "“Our Cardano” by the Cardano Foundation",
-                "uri": "https://cardanofoundation.org/our-cardano"
-            },
-            {
-                "@type": "RelevantArticles",
-                "label": "Committee Memo Cardano Budget: Cardano Foundation's Position",
-                "uri": "ipfs://bafkreihsjnfaqgx53na5qxm4aumzixvvg2z3szgdkz54rvce3xxmgcoglu"
-            },
-            {
-                "@type": "Other",
-                "label": "Rationale PDF",
-                "uri": "ipfs://QmXBdJW3vc388juDQ2ByV4hZTTG3XJUA8QbGAtaMYsA32p"
-            }
-        ]
-    },
-    "authors":
-    [
-        {
-            "name": "Cardano Foundation"
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
         }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action1u9x73kwufaxa70lfy59g4ynwyrcsaxdcd0gxzzmh67s9fxq4j8hqqk2phgh",
+    "summary": "The Cardano Foundation, as a DRep, votes **YES** on the Governance Action proposing the \"Cardano Blockchain Ecosystem Budget - 275M ada Administered by Intersect\" (gov_action1u9x73kwufaxa70lfy59g4ynwyrcsaxdcd0gxzzmh67s9fxq4j8hqqk2phgh).",
+    "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmXBdJW3vc388juDQ2ByV4hZTTG3XJUA8QbGAtaMYsA32p\n\nOur yes vote is a pragmatic decision to ensure that: the crucial step of establishing a budget is taken, funding for 2025 can be received, and to demonstrate progress in on-chain governance - despite our significant reservations about the budget process that led to this proposal.\n\n## Reasoning\n\nWhile the Cardano Foundation did not support all 39 proposals contained within this omnibus budget during off-chain signaling, we recognize the damage that further delays in approving a 2025 budget would cause to ecosystem momentum and confidence. This vote is an acknowledgment of the urgent need for governance progress. However, our support for this budget action is not a guarantee of future support should the budgeting and withdrawal process be repeated in future cycles without improvement. In particular, the significant process uncertainty introduced by the various pivots by Intersect during this year's process are unacceptable in the future.\n\nOur decision is based on these key considerations:\n- **A Pragmatic Decision to Enable Progress:** The 2025 budget process has been less than ideal, marked by uncertainty and pivots. At this late stage, passing a budget is necessary to fund critical development and maintenance, and to show that Cardano’s decentralized governance framework can deliver on its core functions.\n\n- **Expectations for Treasury Withdrawals:** The Foundation’s 'YES' vote on this budget info action does not endorse a single, omnibus treasury withdrawal for the full 275 million ada. To ensure proper oversight and accountability, we advocate for dividing it into two support brackets: proposals above 67% and another between 50%+1 and 67%, along with subsequent treasury withdrawals.\n\n- **Commitment to Financial Transparency:** To ensure accountability, the Foundation expects that vendor contracts be made public, with personal information redacted to protect confidentiality. This framework must also include comprehensive progress reporting and a clear process for transparently accounting for any unused funds, which should be returned to the Treasury.\n\n- **Emphasis on Delivery Assurance:** Given the significant ada amounts requested for the 39 proposals, it is important that Intersect, if acting as an administrator, makes sure contracts with ada recipients are enforceable and that delivery of deliverables can be ensured. This should occur in a public capacity so the community can collectively hold vendors accountable for their performance.\n\n- **Advocacy for an Improved 2026 Budget Process:** The 2025 budget process has highlighted the need for fundamental reform. We advocate that the 2026 process shifts from the current \"vendor-led\" model to a more effective \"purpose-led\" approach. This improved model requires first prioritizing strategic work packages, then inviting competitive proposals to deliver on them, and should be supported by a framework requiring detailed budget breakdowns and clear vendor obligations. This will foster greater transparency, competition, and alignment with strategic ecosystem goals. To enhance long-term planning, we also recommend exploring a longer, 24-month rolling budget cycle to avoid continuous, year-round budget workstreams.",
+    "conclusion": "The Cardano Foundation votes **YES** on this budget proposal as a pragmatic measure to avoid further stagnation and fund the essential work for 2025. This decision is made with the expectation that subsequent treasury withdrawals will be appropriately segmented to allow for diligent DRep scrutiny, and that the entire budget process for 2026 will be fundamentally redesigned to be more purpose-led, accountable, transparent, and effective.\n\n---\n> **_NOTE on 'Internal Voting':_**\n> The fields _constitutional_ and _unconstitutional_ below reflect the CF governance teams' individual opinions whether they are _for_ or _against_ the proposal.\nReason for this inconsistency is, that CIP-136 is at the moment only applicable to CC rationales, but we want to record the internal opinions of our DRep assessment transparently as well.\n---",
+    "internalVote": {
+      "constitutional": 5,
+      "unconstitutional": 0,
+      "abstain": 0,
+      "didNotVote": 2,
+      "againstVote": 0
+    },
+    "references": [
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor URL",
+        "uri": "ipfs://bafkreibeajhkes7bxjlkghkingcgltqcwazz2ya5oknveqwt5nont7tg6u"
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor Hash",
+        "uri": "b95d8f8e324e9863905f16dbad94c1f25b28b933ae842e6f8ce9841c8da5b197"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "Cardano Constitution",
+        "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "“Our Cardano” by the Cardano Foundation",
+        "uri": "https://cardanofoundation.org/our-cardano"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "Committee Memo Cardano Budget: Cardano Foundation's Position",
+        "uri": "ipfs://bafkreihsjnfaqgx53na5qxm4aumzixvvg2z3szgdkz54rvce3xxmgcoglu"
+      },
+      {
+        "@type": "Other",
+        "label": "Rationale PDF",
+        "uri": "ipfs://QmXBdJW3vc388juDQ2ByV4hZTTG3XJUA8QbGAtaMYsA32p"
+      }
     ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Foundation"
+    }
+  ]
 }

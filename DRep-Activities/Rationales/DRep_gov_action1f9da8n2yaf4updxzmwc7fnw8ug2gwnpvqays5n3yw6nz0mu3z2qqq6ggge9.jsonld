@@ -1,0 +1,102 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action1f9da8n2yaf4updxzmwc7fnw8ug2gwnpvqays5n3yw6nz0mu3z2qqq6ggge9",
+    "summary": "The Cardano Foundation, as a DRep, votes YES on the budget info action for \"Tempo for Cardano Governance - Maintenance & Development Budget for 2025\" (gov_action1f9da8n2yaf4updxzmwc7fnw8ug2gwnpvqays5n3yw6nz0mu3z2qqq6ggge9).",
+    "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmRHzT1ZuojMQ6DPUHC16H78tjvRoqxt9LdPLoAGAaMQRy\n\nThis is a pragmatic decision based on the strategic importance of fostering a competitive and diverse governance tooling landscape. While the proposal has flaws in its quality and detail, we believe the risk of creating a tooling monoculture currently outweighs these concerns.\n\n### **Rationale Statement**\n\nThis decision reflects a careful balance between the project's potential strategic value and the valid critiques of the proposal itself. Our support is conditional and comes with clear expectations for future funding requests.\n\n#### **Reasons for a 'YES' Vote**\n\n1. **Strategic Importance of Ecosystem Competition:** The primary driver for our support is the need for healthy competition in the governance tooling sector. tempo.vote provides another option for the ecosystem as a governance interface, allowing users to perform core governance functions like DRep registration and proposal submission. Having multiple options for such tooling supports decentralization, encourages innovation, and can help ensure tooling costs remain reasonable over the long term.  \n2. **Demonstrated Value and Community Use:** The tempo platform has demonstrated its value and agility, for instance, by quickly shipping a bulk-voting feature helpful to the community. This responsiveness helps justify the requested ₳380,000 for six months, which, while high, we view as a pragmatic investment to sustain this valuable tooling solution option.  \n3. **Supporting Ecosystem Diversity:** This vote serves as an important political signal that Cardano's governance and treasury are accessible to smaller, independent development teams. Fostering a diverse ecosystem of builders beyond the large, established entities is essential for Cardano's long-term health and decentralization.",
+    "counterargumentDiscussion": "Our 'YES' vote is not an endorsement of the proposal's quality. We share many of the strong reservations voiced by the community.\n\n1. **Insufficient Detail and Lack of Accountability:** The most significant flaw is the proposal's lack of detail. It lacks structure, a concrete plan, milestones, and a suitable framework against which to measure delivery and hold Tempo accountable—a standard that falls short of the general level of accountability required for treasury funding. We expect any future proposals from Tempo to improve on this front.   \n2. **Questionable Feature Direction:** Certain proposed features are cause for concern. For example, the idea to create a lending pool to help users meet the 100k ada governance action deposit could be seen as a workaround for an intended protocol safeguard, rather than a genuine improvement. While not a fatal flaw, this will require further detail and consultation.",
+    "conclusion": "The Cardano Foundation votes **YES**. This pragmatic decision is based on the strategic imperative to support competition and diversity in Cardano's governance tooling landscape. However, this support is conditional. While we approve this budget to ensure the continuation of a valuable community tool, our approval of the subsequent treasury withdrawal is contingent upon a significantly improved proposal, to be updated and submitted with, or before, the relevant treasury withdrawal governance action is submitted (should this budget info action pass). To secure future support, the Tempo team must provide a subsequent submission that includes comprehensive user metrics, a specific feature roadmap, a detailed financial breakdown, and a robust plan for fund administration and oversight.",
+    "internalVote": {
+      "constitutional": 3,
+      "unconstitutional": 2,
+      "abstain": 1,
+      "didNotVote": 1,
+      "againstVote": 0
+    },
+    "references": [
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor URL (IPFS)",
+        "uri": "ipfs://QmQTpreux4fpWQ5jL4gxZVp7Zx6KNWnoRsj1ApU79c8Y2B "
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor Hash",
+        "uri": "215ed153e091e5146cb2e151a78403fa4c0b91034db6a1d3f0291f454d272009 "
+      },
+      {
+        "@type": "Other",
+        "label": "Tempo.vote Platform",
+        "uri": "https://tempo.vote/"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "\"Our Cardano\" by the Cardano Foundation",
+        "uri": "https://cardanofoundation.org/our-cardano"
+      },
+      {
+        "@type": "Other",
+        "label": "Rationale PDF",
+        "uri": "ipfs://QmRHzT1ZuojMQ6DPUHC16H78tjvRoqxt9LdPLoAGAaMQRy"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Foundation"
+    }
+  ]
+}

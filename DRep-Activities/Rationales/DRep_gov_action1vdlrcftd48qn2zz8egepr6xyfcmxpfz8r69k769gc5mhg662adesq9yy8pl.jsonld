@@ -1,125 +1,110 @@
 {
-    "@context":
-    {
-        "@language": "en-us",
-        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
-        "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
-        "hashAlgorithm": "CIP100:hashAlgorithm",
-        "body":
-        {
-            "@id": "CIP136:body",
-            "@context":
-            {
-                "references":
-                {
-                    "@id": "CIP100:references",
-                    "@container": "@set",
-                    "@context":
-                    {
-                        "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
-                        "Other": "CIP100:OtherReference",
-                        "label": "CIP100:reference-label",
-                        "uri": "CIP100:reference-uri",
-                        "RelevantArticles": "CIP136:RelevantArticles"
-                    }
-                },
-                "summary": "CIP136:summary",
-                "rationaleStatement": "CIP136:rationaleStatement",
-                "precedentDiscussion": "CIP136:precedentDiscussion",
-                "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
-                "conclusion": "CIP136:conclusion",
-                "internalVote":
-                {
-                    "@id": "CIP136:internalVote",
-                    "@container": "@set",
-                    "@context":
-                    {
-                        "constitutional": "CIP136:constitutional",
-                        "unconstitutional": "CIP136:unconstitutional",
-                        "abstain": "CIP136:abstain",
-                        "didNotVote": "CIP136:didNotVote"
-                    }
-                }
-            }
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
         },
-        "authors":
-        {
-            "@id": "CIP100:authors",
-            "@container": "@set",
-            "@context":
-            {
-                "did": "@id",
-                "name": "http://xmlns.com/foaf/0.1/name",
-                "witness":
-                {
-                    "@id": "CIP100:witness",
-                    "@context":
-                    {
-                        "witnessAlgorithm": "CIP100:witnessAlgorithm",
-                        "publicKey": "CIP100:publicKey",
-                        "signature": "CIP100:signature"
-                    }
-                }
-            }
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
         }
+      }
     },
-    "hashAlgorithm": "blake2b-256",
-    "body":
-    {
-        "govActionId": "gov_action1vdlrcftd48qn2zz8egepr6xyfcmxpfz8r69k769gc5mhg662adesq9yy8pl",
-        "summary": "The Cardano Foundation votes NO on the info Governance Action (`gov_action1vdlrcftd48qn2zz8egepr6xyfcmxpfz8r69k769gc5mhg662adesq9yy8pl`) proposing a Net Change Limit (NCL) of 300,000,000,000,000 lovelace (300 million ada) for the period covering Epochs 563–635 (08 June 2025 to 08 June 2026).",
-        "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmTS68ewzGwKwhNZ6n1ma7BarW4uaz5vPTadACWLMEcL3t\n\nAn NCL for the entirety of 2025 (350 million ada, Epochs 532-604) has already been approved by DReps. This new proposal seeks to alter a significant portion of that approved 2025 NCL and define an NCL for part of 2026. While we acknowledge the constitutional provision for NCLs (Article IV, Section 3), this proposal, in the current context, raises serious concerns regarding governance stability, procedural prudence, and the necessity of such a change at this time.\n\nOur decision to vote 'NO' is based on the following primary reasons:\n\n**1. Undermining Stability of the Approved 2025 NCL:** The Foundation believes, barring compelling reasons for a change, it is critical to uphold the stability and predictability of the already-approved NCL for the 2025 calendar year. Attempting to alter this ratified NCL mid-year, as this proposal suggests, risks undermining trust in Cardano's fiscal parameters and the finality of governance decisions. Teams and projects require a stable NCL to confidently prepare and submit budget proposals for the current cycle.\n\n**2. Premature and Fragmented Approach for 2026 NCL Coverage:** Defining a portion of the 2026 NCL now, before the 2025 budget cycle has substantially progressed and its learnings can be assessed, is premature. A more thorough, deliberate, and holistic approach should be taken to establish the NCL for 2026 later in 2025. Deciding a new NCL so far in advance complicates long-term planning.\n\n**3. Insufficient Justification for Revision and Extension:** The motivation that some budgets span 12 months and extend into 2026 does not inherently necessitate an immediate revision of the 2025 NCL or an early partial definition of the 2026 NCL. Budgets spanning across NCL periods can have their withdrawals managed within the respective active NCLs. Although we welcome proactive strategy on the 2026 budget, the proposal does not provide a compelling enough reason to disrupt the current NCL and ongoing budget processes aligned with the 350M ada limit.\n\n**4. Focus on Current Governance Cycle Learnings:** With the first on-chain budget cycle under the approved 350M NCL for 2025 yet to be fully implemented and evaluated, the priority should be on gaining experience and insights from this initial period to inform 2026 strategy. Introducing further changes to the NCL framework before these learnings are consolidated is not advisable.\n\n---\n\n> **_NOTE on \"Internal Voting\":_** \n> \n> The fields _constitutional_ and _unconstitutional_ below reflect the CF governance teams' individual opinions whether they are _for_ or _against_ the proposal. \n> Reason for this inconsistency is, that CIP-136 is at the moment only applicable to CC rationales, but we want to record the internal opinions of our DRep assessment transparently as well.\n\n---",
-        "internalVote":
-        {
-            "constitutional": 0,
-            "unconstitutional": 5,
-            "abstain": 0,
-            "didNotVote": 2,
-            "againstVote": 0
-        },
-        "references":
-        [
-            {
-                "@type": "GovernanceMetadata",
-                "label": "Metadata Anchor URL",
-                "uri": "ipfs://bafkreieu47jw2qoxmqz67qyhhj4pi7fssuth5s4mm42qleqtw5tuzs3pgu"
-            },
-            {
-                "@type": "GovernanceMetadata",
-                "label": "Metadata Anchor Hash",
-                "uri": "ec7179c11582daa390e6d0c3f3cc46b0116d96aadcc74e02aa8d8e91434ab7af"
-            },
-            {
-                "@type": "RelevantArticles",
-                "label": "References (HisSim Data Model PDF - IPFS)",
-                "uri": "ipfs://bafybeihms6haw35awizxa37kuo4qghgmjkldr6lvrcl26mdsk4f6rxdwv4"
-            },
-            {
-                "@type": "RelevantArticles",
-                "label": "Cardano Constitution (IPFS)",
-                "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
-            },
-            {
-                "@type": "RelevantArticles",
-                "label": "Definitions for the Cardano Constitution (IPFS)",
-                "uri": "ipfs://bafkreiewp5bgrdiesq6ft3qypykgcjhvfgpp4s5o4yrjrvko4wuhi4iecu"
-            },
-            {
-                "@type": "Other",
-                "label": "“Our Cardano” by the Cardano Foundation",
-                "uri": "https://www.cardanofoundation.org/our-cardano"
-            },
-            {
-                "@type": "Other",
-                "label": "Rationale PDF",
-                "uri": "ipfs://QmTS68ewzGwKwhNZ6n1ma7BarW4uaz5vPTadACWLMEcL3t"
-            }
-        ]
-    },
-    "authors":
-    [
-        {
-            "name": "Cardano Foundation"
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
         }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action1vdlrcftd48qn2zz8egepr6xyfcmxpfz8r69k769gc5mhg662adesq9yy8pl",
+    "summary": "The Cardano Foundation votes NO on the info Governance Action (`gov_action1vdlrcftd48qn2zz8egepr6xyfcmxpfz8r69k769gc5mhg662adesq9yy8pl`) proposing a Net Change Limit (NCL) of 300,000,000,000,000 lovelace (300 million ada) for the period covering Epochs 563–635 (08 June 2025 to 08 June 2026).",
+    "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmTS68ewzGwKwhNZ6n1ma7BarW4uaz5vPTadACWLMEcL3t\n\nAn NCL for the entirety of 2025 (350 million ada, Epochs 532-604) has already been approved by DReps. This new proposal seeks to alter a significant portion of that approved 2025 NCL and define an NCL for part of 2026. While we acknowledge the constitutional provision for NCLs (Article IV, Section 3), this proposal, in the current context, raises serious concerns regarding governance stability, procedural prudence, and the necessity of such a change at this time.\n\nOur decision to vote 'NO' is based on the following primary reasons:\n\n**1. Undermining Stability of the Approved 2025 NCL:** The Foundation believes, barring compelling reasons for a change, it is critical to uphold the stability and predictability of the already-approved NCL for the 2025 calendar year. Attempting to alter this ratified NCL mid-year, as this proposal suggests, risks undermining trust in Cardano's fiscal parameters and the finality of governance decisions. Teams and projects require a stable NCL to confidently prepare and submit budget proposals for the current cycle.\n\n**2. Premature and Fragmented Approach for 2026 NCL Coverage:** Defining a portion of the 2026 NCL now, before the 2025 budget cycle has substantially progressed and its learnings can be assessed, is premature. A more thorough, deliberate, and holistic approach should be taken to establish the NCL for 2026 later in 2025. Deciding a new NCL so far in advance complicates long-term planning.\n\n**3. Insufficient Justification for Revision and Extension:** The motivation that some budgets span 12 months and extend into 2026 does not inherently necessitate an immediate revision of the 2025 NCL or an early partial definition of the 2026 NCL. Budgets spanning across NCL periods can have their withdrawals managed within the respective active NCLs. Although we welcome proactive strategy on the 2026 budget, the proposal does not provide a compelling enough reason to disrupt the current NCL and ongoing budget processes aligned with the 350M ada limit.\n\n**4. Focus on Current Governance Cycle Learnings:** With the first on-chain budget cycle under the approved 350M NCL for 2025 yet to be fully implemented and evaluated, the priority should be on gaining experience and insights from this initial period to inform 2026 strategy. Introducing further changes to the NCL framework before these learnings are consolidated is not advisable.\n\n---\n\n> **_NOTE on \"Internal Voting\":_** \n> \n> The fields _constitutional_ and _unconstitutional_ below reflect the CF governance teams' individual opinions whether they are _for_ or _against_ the proposal. \n> Reason for this inconsistency is, that CIP-136 is at the moment only applicable to CC rationales, but we want to record the internal opinions of our DRep assessment transparently as well.\n\n---",
+    "internalVote": {
+      "constitutional": 0,
+      "unconstitutional": 5,
+      "abstain": 0,
+      "didNotVote": 2,
+      "againstVote": 0
+    },
+    "references": [
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor URL",
+        "uri": "ipfs://bafkreieu47jw2qoxmqz67qyhhj4pi7fssuth5s4mm42qleqtw5tuzs3pgu"
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor Hash",
+        "uri": "ec7179c11582daa390e6d0c3f3cc46b0116d96aadcc74e02aa8d8e91434ab7af"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "References (HisSim Data Model PDF - IPFS)",
+        "uri": "ipfs://bafybeihms6haw35awizxa37kuo4qghgmjkldr6lvrcl26mdsk4f6rxdwv4"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "Cardano Constitution (IPFS)",
+        "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "Definitions for the Cardano Constitution (IPFS)",
+        "uri": "ipfs://bafkreiewp5bgrdiesq6ft3qypykgcjhvfgpp4s5o4yrjrvko4wuhi4iecu"
+      },
+      {
+        "@type": "Other",
+        "label": "“Our Cardano” by the Cardano Foundation",
+        "uri": "https://www.cardanofoundation.org/our-cardano"
+      },
+      {
+        "@type": "Other",
+        "label": "Rationale PDF",
+        "uri": "ipfs://QmTS68ewzGwKwhNZ6n1ma7BarW4uaz5vPTadACWLMEcL3t"
+      }
     ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Foundation"
+    }
+  ]
 }

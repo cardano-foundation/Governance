@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action1fpqwxp2kxvnntr8hpkh9q9djm78ccdww7qlhg5safugh4stmcwzqql5lauu",
+    "summary": "The Cardano Foundation, as a DRep, votes NO on the Governance Action (`gov_action1fpqwxp2kxvnntr8hpkh9q9djm78ccdww7qlhg5safugh4stmcwzqql5lauu`) proposing the \"Cardano Treasury DeFi Liquidity Budget.\"",
+    "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmezPtJM1JzDJ5UpnA9AiA14egeKzdU7L7WxXXvW7pxdg7\n\nWhile the Cardano Foundation acknowledges the strategic importance of enhancing DeFi liquidity within the Cardano ecosystem, this specific proposal, in its current form, presents several shortcomings that prevent us from supporting it. The Foundation believes that robust justification, clear governance, and detailed planning are prerequisites for allocating Treasury resources.\n\nOur decision to vote 'NO' is based on the following primary shortcomings identified in the proposal:\n\n- **Unclear Financial Strategy:** The 50 million ada budget lacks detailed allocation plans, clearly defined and measurable key performance indicators (KPIs), and projections for expected returns to the Treasury.\n\n- **Insufficient Justification:** The rationale provides inadequate explanation for the 50 million ada requested amount, its proposed 12-month operational duration, or the specific basis for any committee compensation.\n\n- **Weak Governance Framework:** Proposed oversight mechanisms appear to rely on non-binding info actions and basic multi-sig arrangements, lacking the robust, smart-contract-based administration and clear accountability for withdrawals constitutionally required for such significant funds.\nCommittee Composition Issues: The outlined initial committee structure seems to conflict with stated principles regarding appropriate representation from founding entities.\n\n- **Procedural and Technical Shortcomings:** Concerns such as potential metadata hash mismatches and vague operational timelines indicate a need for greater proposal refinement and technical due diligence before funding consideration.\n\nGiven these significant shortcomings in vital areas of financial strategy, justification, governance, and procedural soundness, the Cardano Foundation cannot endorse this proposal at this time. We believe that proposals seeking Treasury funding must meet a high standard of clarity, accountability, and strategic alignment.",
+    "conclusion": "The Cardano Foundation votes NO on this proposal. While the goal of enhancing DeFi liquidity is important, the current proposal requires considerable refinement to address the identified shortcomings. We encourage the proposers to develop a more detailed and robust framework that ensures transparent and effective use of community funds. \n\n\n---\n> **_NOTE on 'Internal Voting':_** \nThe fields _constitutional_ and _unconstitutional_ below reflect the CF governance teams' individual opinions whether they are _for_ or _against_ the proposal. \nReason for this inconsistency is, that CIP-136 is at the moment only applicable to CC rationales, but we want to record the internal opinions of our DRep assessment transparently as well.\n---",
+    "internalVote": {
+      "constitutional": 1,
+      "unconstitutional": 4,
+      "abstain": 2,
+      "didNotVote": 0,
+      "againstVote": 0
+    },
+    "references": [
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor URL",
+        "uri": "https://raw.githubusercontent.com/theeldermillenial/2025-liquidity-budget/df0b26d8796b19b566008ea9eaa8f17fef2cb6d4/info.jsonld"
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor Hash",
+        "uri": "97df3a30b767ee5b8e2b9fde824d91d3366985243ed73c06b257c2163f9045db"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "Constitution",
+        "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy "
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "Definitions for the Cardano Constitution ",
+        "uri": "ipfs://bafkreiewp5bgrdiesq6ft3qypykgcjhvfgpp4s5o4yrjrvko4wuhi4iecu"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "“Our Cardano” by the Cardano Foundation",
+        "uri": "https://cardanofoundation.org/our-cardano"
+      },
+      {
+        "@type": "Other",
+        "label": "Rationale PDF",
+        "uri": "ipfs://QmezPtJM1JzDJ5UpnA9AiA14egeKzdU7L7WxXXvW7pxdg7"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Foundation"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote",
+            "againstVote": "CIP136:againstVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action10k0unljvaej0kd89w7pn0zkgdx59c7xkl0x5q78dzvdtd73u0kmqq5xl5y5",
+    "summary": "The Cardano Foundation votes NO on the info Governance Action (gov_action10k0unljvaej0kd89w7pn0zkgdx59c7xkl0x5q78dzvdtd73u0kmqq5xl5y5) proposing to set a Net Change Limit (NCL) of 200,000,000,000,000 lovelace (200 million ada) for 2025.",
+    "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmZuQ5v8U8ApZp4E3J57EVxkDkYjtrNP6HrrG5rmzyYNZK\n\nAn NCL for 2025 of 350 million ada has already been approved by the DReps via a previous Info Governance Action (gov_action1nd3t833j7v5sz65k3tp9yyvztw60sjcjgcgjr37682s3m7frwrusqmd2k80). This new proposal, therefore, seeks to revise a recently ratified governance decision. While the Cardano Constitution allows for the NCL to be changed, the Foundation believes it is too soon following the previous NCL for a new NCL to be adopted. Maintaining the current NCL serves to keep core fiscal parameters stable and predictable for the current period.\n\nOur decision to vote 'NO' on this revising proposal is based on the following primary concerns:\n\n1. **Undermining Stability:** The rapid adoption of a new NCL after the adoption of gov_action1nd3t833j7v5sz65k3tp9yyvztw60sjcjgcgjr37682s3m7frwrusqmd2k80 only one month ago may create instability at the expense of progress in governance. Revisiting such decisions without compelling reasons risks setting a precedent for continuous challenges to established parameters, creating instability.\n\n2. **Disruption to Ecosystem Planning:** Following the approval of the 350M ada NCL, ecosystem participants would have begun formulating budget proposals and strategic plans based on this figure. A subsequent reduction to 200M ada would cause considerable disruption, potentially invalidating work already undertaken and creating an unpredictable environment for those seeking to contribute to Cardano's maintenance and development.\n\n3. **Insufficient Justification for Overturning an Approved NCL:** While the proposal for 200M ada cites principles of caution for a \"first budget experiment,\" these arguments would have been relevant during the deliberation of the initial 2025 NCL. The current proposal does not present sufficiently critical new evidence or a fundamental flaw in the previous decision-making process that would warrant overturning the already established 350M ada NCL.\n\n4. **NCL Setting Process and Future Deliberations:** The introduction of this proposal after another NCL has been ratified highlights the need for robust community discussion and consensus before an NCL is set. For future NCL deliberations (e.g., for 2026 and beyond), the Cardano Foundation advocates for exploring mechanisms that allow DReps to express more nuanced preferences, perhaps across a range of potential NCL values for a given timeframe. This could help achieve a stronger initial consensus and reduce the likelihood of immediate post-ratification revisions.",
+    "internalVote": {
+      "constitutional": 2,
+      "unconstitutional": 4,
+      "abstain": 1,
+      "didNotVote": 0,
+      "againstVote": 0
+    },
+    "references": [
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor URL (IPFS)",
+        "uri": "ipfs://QmRrGsZsP5R7cFYFzPXQ9vS2Ux7oTXb1ep1EciLdKqeDWY"
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor Hash",
+        "uri": "30f03001e623d61ae782efe922b21ef79c4a1d06b258fd773d9c762d1a42d9b9"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "Cardano Constitution",
+        "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "Definitions for the Cardano Constitution",
+        "uri": "ipfs://bafkreiewp5bgrdiesq6ft3qypykgcjhvfgpp4s5o4yrjrvko4wuhi4iecu"
+      },
+      {
+        "@type": "Other",
+        "label": "HisSim Data Model (PDF - IPFS)",
+        "uri": "ipfs://bafybeihms6haw35awizxa37kuo4qghgmjkldr6lvrcl26mdsk4f6rxdwv4"
+      },
+      {
+        "@type": "Other",
+        "label": "“Our Cardano” by the Cardano Foundation",
+        "uri": "https://www.cardanofoundation.org/our-cardano"
+      },
+      {
+        "@type": "Other",
+        "label": "Rationale PDF",
+        "uri": "ipfs://QmZuQ5v8U8ApZp4E3J57EVxkDkYjtrNP6HrrG5rmzyYNZK"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Foundation"
+    }
+  ]
+}

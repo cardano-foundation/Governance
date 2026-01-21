@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP129": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0129/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "govActionId": "CIP129:governance-action-identifiers",
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote",
+            "againstVote": "CIP136:againstVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action169kllwhfmp488je5x5rwvufd08p8sztdcf0ghf5sp6ey2gnjdwaqql47xry",
+    "summary": "The Cardano Foundation votes YES on the 2025 Net Change Limit Extension. This \"bridge solution\" will ensure operational continuity for the Cardano Treasury and resolve a technical timing conflict that may otherwise prevent currently active Budget Info Actions from executing.",
+    "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmTbPDerT7fZH8jeYDHLWTkCErX1ve9hQYz4NKAYPAeKnV\n\nOur support for this extension is driven by the need for administrative stability and constitutional clarity.\n- **Resolving the Enactment Deadlock:** Due to the enactment delay, a Treasury Withdrawal ratified in the final epoch of the current NCL (Epoch 604) would effectively disburse funds in Epoch 606, after the current NCL has expired. This creates a constitutional paradox where the Constitutional Committee might be forced to reject an otherwise constitutionally valid withdrawal simply because there is no \"applicable NCL\" at the moment of disbursement. While we recognise that the wording in the Constitution on this issue is far from clear, extending the NCL by 8 epochs removes any ambiguity, ensuring that the **Cardano Critical Integrations Budget** can be assessed and enacted constitutionally.\n\n- **A Bridge to the 2026 Framework:** We recognize this proposal as a temporary bridge, not a permanent baseline. The 8-epoch extension provides a good buffer, ensuring treasury operations do not grind to a halt in January. **Community Leadership:** We want to extend our gratitude to Mike Hornan, HOSKY, Tingvard, and the Ace Alliance for identifying this edge case and proposing a solution. This action demonstrates the strength of Cardano’s decentralized governance model: expert community members stepping up to collaborate to ensure the system functions smoothly.",
+    "conclusion": "The Cardano Foundation votes YES. This is a responsible administrative update that ensures business continuity. By approving this extension, we hope to assist the Constitutional Committee in resolving procedural dilemmas and ensure that the ecosystem's strategic funding priorities can be executed without technical interruption.\n\n---\n\n> **_NOTE on 'Internal Voting':_**\n> The fields _constitutional_ and _unconstitutional_ below reflect the CF governance teams' individual opinions whether they are _for_ or _against_ the proposal. Reason for this inconsistency is, that CIP-136 is at the moment only applicable to CC rationales, but we want to record the internal opinions of our DRep assessment transparently as well.",
+    "internalVote": {
+      "constitutional": 4,
+      "unconstitutional": 1,
+      "abstain": 0,
+      "didNotVote": 0,
+      "againstVote": 0
+    },
+    "references": [
+      {
+        "@type": "RelevantArticles",
+        "label": "2025 Net Change Limit",
+        "uri": "gov_action1nd3t833j7v5sz65k3tp9yyvztw60sjcjgcgjr37682s3m7frwrusqmd2k80"
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor URL (IPFS)",
+        "uri": "Qmeme8EWugVPQeVghpqB53nvG5U4VT9zy3Ta545fEJPnqL"
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor Hash",
+        "uri": "25b56befe5ef4e472e3020b81162b4076f4e274f68fcdacb2ec686ca6197771e"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "Analysis: Governance Action Enactment Delay (IPFS)",
+        "uri": "bafkreihwy7w35yarvdsxltsd4ejta4646hf5bq6zpo664gpfrqdb2tocbi"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "“Our Cardano” by the Cardano Foundation",
+        "uri": "https://cardanofoundation.org/our-cardano"
+      },
+      {
+        "@type": "Other",
+        "label": "Rationale PDF",
+        "uri": "ipfs://QmTbPDerT7fZH8jeYDHLWTkCErX1ve9hQYz4NKAYPAeKnV"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Foundation"
+    }
+  ]
+}

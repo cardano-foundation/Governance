@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action1u4jrcvlkppjzuv5j9z5ksacwtvv77h6glu0knpcjut8gvjjfu0cqqt3alsy",
+    "summary": "Cardano Foundation votes YES - at this time. We do support the strategic goal of enhancing DeFi liquidity, but we have requirements that must be satisfied for us to vote YES on any treasury withdrawal. In particular, the proposal must address concerns around governance, security, and operations.",
+    "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmQDpskBRwSEmhrH6LqikZWELxMFKWda6yvuBakhxq5jn7\n\nWe commend the proposing team for their effort and for tackling the challenge of stablecoin liquidity on Cardano. The initiative to establish a structured, on-chain governance process for liquidity deployment is very welcome and lines up with our own efforts. Our YES vote is a recognition of these facts and a reflection of the willingness by the proposers to collaborate on solving the remaining practical challenges.\nHowever, to proceed successfully from the proposal stage to withdrawals, a treasury request of this magnitude that also establishes new governance mechanisms, must provide satisfactory answers on all key challenges. In its current form, the proposal does not yet do this. We provide an overview of our requirements and recommendations below.\n\n---\n\n## Recommendations for a Revised Proposal\nOur support for any future treasury withdrawal is contingent upon the proposing team addressing the key remaining challenges. We have separated these into requirements for our future support and an additional set of recommendations.\n\n### Minimal Requirements\nThe following are the key challenges the team must provide satisfactory answers for in the subsequent treasury withdrawal requests. For the Phase 2 requirements, we may add additional or further clarify existing requirements subsequent to Phase 1 results.\n\n#### For the Phase 1 Treasury Withdrawal Request - 500k ada:\n1. **Legal and Operational Structure:** The proposal must detail the legal structure and jurisdiction that will be used as a legal nexus for the committee and associated governance mechanisms and provide a rationale for the choices made.\n2. **Conflict of Interest Policy:** A conflict of interest policy for committee members and any other decision makers, outlining consequences for non-disclosure.\n3. **Selection Framework:** The specific, detailed criteria for evaluating and selecting stablecoins, DeFi protocols, and DEXs, including any limitations on such selections, must be published before any treasury withdrawals are submitted. The protocol application (RFP) process must also require applicants to disclose any relationships with committee members. If a conflict of interest (COI) is discovered after the fact, we expect the affected protocol to be blacklisted and the involved committee member to be removed from the committee.\n4. **Clarification of Metrics:** The metrics currently provided to measure success and manage community expectations (e.g. \"4% Annual Returns\") must be clarified  (e.g. to distinguish between portfolio APY and the actual distribution yield to the treasury). This includes the intended improvements to the user experience in Cardano DeFi. Additionally a clear formula for calculating monthly revenue must be provided.\n5. **Asset Management Strategy Principles:** An outline of the overall approach to the asset management lifecycle for the fund.\n\n#### For the Phase 2 Treasury Withdrawal Request - 49.5M ada:\n1. **Legal and Operational Structure:** The governance and contractual framework for the legal structure and its constituent components (e.g. board, committee(s), other) must be fully developed and publicly available. This includes but is not necessarily limited to e.g. articles of association, organisational regulations, other internal policies and regulations (insofar as they are not security relevant; e.g. custody setup), etc. \n2. **Projections and Simulations:** Suitable projections and simulations that map out the likely outcomes of the liquidity injections for the Cardano ecosystem and by extension provide a justification for the withdrawal amount.\n3. **Advisors & Service Providers:** The advisors and service providers envisaged for the operational phase must be identified and a rationale should be provided for the selection of each one.\n4. **Risk Management:** A formal risk management framework and assessment, including contingency and disaster recovery plans (e.g. committee out of action) for the legal structure must be available.\n5. **Asset Management Strategy:** A fully fledged strategy to address the lifecycle of liquidity positions must be available, including an approach and strategy for unwinding and reallocating capital over the long term.\n6. **Operational Procedures:** An operational framework with associated processes must be available (e.g. for committee operations, voting, eligibility selection, wind-up etc.).\n\n### Recommendations\nThe following are recommendations that we would strongly suggest for consideration by the proposal team going forward. We believe they are critical for strengthening the proposal’s safety and viability.\n1. **Governance and Security Design:**\n    - **Fund Return Process:** The administrating smart contract should include a technical failsafe that allows a tDAO vote to directly and automatically trigger the return of funds to the treasury without committee cooperation.\n    - **Committee Member Qualifications:** The proposal should establish minimum requirements for committee candidates (e.g., KYC, Sanctions Checks) and allow for voluntary resignation.\n    - **tDAO Action Prioritization:** A clear process for prioritizing tDAO votes should be defined to prevent the mechanism from being used to deliberately block urgent actions.\n    - **Governance Protocol Flexibility:** A plan should be outlined for how critical updates could be made to the \"immutable section\" of the Governance Protocol if a vulnerability is discovered.\n    - **Time Delays and Vetos:** To minimize the opportunity for frontrunning and provide an additional safeguard for committee overreach, suitable time delays between committee decisions and on-chain execution should be considered, possibly alongside tDAO veto power as a backstop.\n    - **Dual-Approval for Key Decisions:** Simply increasing the committee voting threshold does not sufficiently mitigate the risk of a captured committee. We recommend implementing a dual-approval mechanism for critical decisions (e.g. deploying funds to a new protocol). This would require both a majority vote from the administrative committee (e.g. 5/9) AND a separate approval from the tDAO (e.g., a 33% active stake 'yes' vote). This or similar mechanisms would introduce a vital check and balance on the decision making process and increase operational security for the committee, ensuring alignment between the expert committee and tDAO.\n2. **tDAO Integrity and Mechanics:**\n    - **Membership Rules:** The rules should explicitly prevent administrative committee members from simultaneously serving as DReps within the tDAO.\n    - **Voting Power Snapshots:** The proposal should commit to a high-frequency (e.g., daily) snapshot of DRep voting power to accurately reflect the state of delegation.\n    - **Clarification of tDAO Voting Mechanics:** The proposal should specify how non-votes are treated and should consider establishing minimum quorum requirements.\nDRep and Committee Compensation and Liability: The proposal should address if, why and how DReps and committee members will be compensated for their oversight role, how to ensure that they “turn up for work” if they do receive compensation and what, if any, legal exposure they could have.\n\n**Note on Governance and Oversight**\nTo ensure transparency, we acknowledge the participation of our CTO, Giorgio Zinetti, as a member of the administrative committee for this proposal. We view his involvement as providing critical technical expertise and oversight to the initiative, helping to ensure its operational soundness.",
+    "conclusion": "The Cardano Foundation votes YES at this time. Assuming the proposal passes this stage, we have outlined our clear and actionable requirements for subsequent Phase 1 and Phase 2 treasury withdrawal governance actions.",
+    "references": [
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor URL (IPFS): ",
+        "uri": "ipfs://bafkreihk5qt5tgbojnno7eymbm2urm6y6jkt4yqfxdzh3agnj47zuv7lpe"
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor Hash:",
+        "uri": "0e219503c6731b471ed8e5b21165a25cb5aa7fcc585277abad5d0a84251b3168"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "“Our Cardano” by the Cardano Foundation: ",
+        "uri": "https://cardanofoundation.org/our-cardano"
+      },
+      {
+        "@type": "Other",
+        "label": "Rationale PDF",
+        "uri": "ipfs://QmQDpskBRwSEmhrH6LqikZWELxMFKWda6yvuBakhxq5jn7"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Foundation"
+    }
+  ]
+}

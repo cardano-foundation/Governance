@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action16tdkp3fs0j6303e4utgp8rftdug0ckezr4sslgv8wxdaeq40ngpsq5sr06h",
+    "summary": "The Cardano Foundation, as a DRep, votes YES on this treasury withdrawal. This is consistent with our support for the preceding budget info action. While the budget is large, we believe the investment is justified for the next year in supporting the development of essential governance infrastructure",
+    "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmP5BZh75hRvVP2rWGLRKY6AV3c7uMYUV5bJWKV6atBKyB\n\nThis treasury withdrawal (gov\\_action16tdkp3fs0j6303e4utgp8rftdug0ckezr4sslgv8wxdaeq40ngpsq5sr06h) governance action aligns with the approved budget info action (gov\\_action1n5sn54mgf47a7men2ryq6ppx88kta4wvenz2qkl4f9v6ppje8easqxwm88m) for the continued maintenance and development of GovTool. Our continued support is based on several key factors:\n\n1. **Robust Administrative Framework:** The proposal's use of Intersect's smart contract framework provides a transparent structure for accountability. This directly addresses the need for clear oversight on a project of this scale.  \n2. **A Clear and Valuable Roadmap:** The planned development roadmap includes several high-impact features, such as script-based DReps, enhanced DRep voting history, and integration with the CoSponsor tool. These updates will significantly improve the functionality and accessibility of Cardano's governance system.  \n3. **Commitment to Ecosystem Decentralization:** The allocation of 250,000 ada for external contributions, to be distributed via the Andamio platform, is a commendable step. It encourages broader community participation and helps ensure the governance tooling landscape does not become dependent on a single tool or consortium.\n\n---\n\n### **Expectations for Future Sustainability**\n\nWhile we support this 12-month budget, it is important to state our expectations for the future. The 1.15M ada sum is substantial, and this level of funding should not be considered a recurring annual expense. With such a large withdrawal, we expect the GovTool Consortium to use this year to achieve two key goals for long-term sustainability:\n\n* **Infrastructure Optimization:** A primary goal should be to optimize the hosting and deployment infrastructure to reduce operational costs in the future.  \n* **Simplified Self-Hosting:** To further enhance decentralization and reduce reliance on a single point of failure, we strongly recommend the team prioritize making it straightforward for any community member to spin up and host their own instance of GovTool.",
+    "conclusion": "The Cardano Foundation votes **YES**. This treasury withdrawal represents an important investment in Cardano’s core open-source governance infrastructure. The GovTool Consortium has presented a clear plan with a professional administrative framework. We support this funding with the explicit expectation that it will lead to a more cost-effective and resilient governance tooling ecosystem in the future.",
+    "internalVote": {
+      "constitutional": 4,
+      "unconstitutional": 0,
+      "abstain": 0,
+      "didNotVote": 1,
+      "againstVote": 0
+    },
+    "references": [
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor URL (IPFS)",
+        "uri": "ipfs://bafkreihju7a6zywpv3adaeeg4nnyrkewurng5csavsspmqsgikzg2suhry"
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor Hash",
+        "uri": "e2ed7354990674f1087cb3672f0418ed2dde4f7cad3190992cea0448d5ca5bc9"
+      },
+      {
+        "@type": "Other",
+        "label": "Our Rationale of the approved Budget Info Action (IPFS)",
+        "uri": "ipfs://bafybeidmmqyzytfdisten7t5oknspxttwczsbbbdmq2i5al5dds4j3bviq"
+      },
+      {
+        "@type": "Other",
+        "label": "“Our Cardano” by the Cardano Foundation",
+        "uri": "https://cardanofoundation.org/our-cardano"
+      },
+      {
+        "@type": "Other",
+        "label": "Rationale PDF",
+        "uri": "ipfs://QmP5BZh75hRvVP2rWGLRKY6AV3c7uMYUV5bJWKV6atBKyB"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Foundation"
+    }
+  ]
+}

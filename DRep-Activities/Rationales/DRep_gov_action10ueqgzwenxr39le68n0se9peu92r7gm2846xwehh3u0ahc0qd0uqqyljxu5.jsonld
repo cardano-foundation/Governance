@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action10ueqgzwenxr39le68n0se9peu92r7gm2846xwehh3u0ahc0qd0uqqyljxu5",
+    "summary": "The Cardano Foundation as a DRep votes NO on gov_action10ueqgzwenxr39le68n0se9peu92r7gm2846xwehh3u0ahc0qd0uqqyljxu5, which proposes Net Change Limits of 300,000,000,000,000 lovelace (300 million ada) for 2025 and 250,000,000,000,000 lovelace (250 million ada) for 2026. Pdf: ipfs://QmT33nGNqUHE1ag4c3bum8EBU3wTF2ntW7NpgFy3esQdBR",
+    "rationaleStatement": "While establishing an NCL is a constitutional necessity and we value community engagement, this proposal’s structure and the current process context raise concerns that we believe are better addressed in the other NCL currently available for voting (gov_action1nd3t833j7v5sz65k3tp9yyvztw60sjcjgcgjr37682s3m7frwrusqmd2k80). <br> Our decision to vote ‘NO’ is based primarily on these reasons: <br> 1. Two-Year NCL Duration: The Foundation believes that since this is the first time we are passing an NCL it is preferable to cover only one year, to allow for adaptation and learning in successive NCLs based on realized data and evaluated forecast accuracy. 2. Conflicting Proposals: Multiple, competing NCL proposals create constitutional uncertainty. The Cardano Constitution currently lacks explicit rules for resolving outcomes should multiple, conflicting NCL GAs be ratified concurrently. Hence we believe that only one YES vote on competing NCL GAs should be enacted. <br> Consistent with our commitment to governance transparency and accountability, we note the mutable nature of the provided GitHub Metadata Anchor URL. To ensure clarity on the version evaluated, the Cardano Foundation has pinned the file associated with the hash a2fa375274a2c5efa985a1e9811f27ea1ebf8b8dd88cdf9931a5aa856c73832a (originally hosted at https://raw.githubusercontent.com/blockchainada/ga/refs/heads/main/ga01.jsonld) to IPFS: ipfs://QmdtQ3h9uaY5SdWqXan1BPyaD6BqGbMHGZvyDiPs4LN9Rk. In conclusion, while an NCL is imperative and we support the initiative taken in submitting this NCL, the Foundation votes NO on this specific proposal due to the highlighted concerns.",
+    "internalVote": {
+      "constitutional": 1,
+      "unconstitutional": 3,
+      "abstain": 1,
+      "didNotVote": 1,
+      "againstVote": 1
+    }
+  },
+  "references": [
+    {
+      "@type": "Other",
+      "label": "“Our Cardano” by the Cardano Foundation",
+      "uri": "https://www.cardanofoundation.org/our-cardano "
+    },
+    {
+      "@type": "GovernanceMetaData",
+      "label": "Metadata Anchor URL (Original URL)",
+      "uri": "https://raw.githubusercontent.com/blockchainada/ga/refs/heads/main/ga01.jsonld"
+    },
+    {
+      "@type": "GovernanceMetaData",
+      "label": "Metadata Anchor Hash",
+      "uri": "a2fa375274a2c5efa985a1e9811f27ea1ebf8b8dd88cdf9931a5aa856c73832a"
+    },
+    {
+      "@type": "Other",
+      "label": "Metadata File (CF Pinned Version)",
+      "uri": "ipfs://QmdtQ3h9uaY5SdWqXan1BPyaD6BqGbMHGZvyDiPs4LN9Rk"
+    },
+    {
+      "@type": "RelevantArticles",
+      "label": "Cardano Constitution (Relevant Sections: Article IV, Appendix I)",
+      "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+    },
+    {
+      "@type": "Other",
+      "label": "Rationale PDF",
+      "uri": "ipfs://QmT33nGNqUHE1ag4c3bum8EBU3wTF2ntW7NpgFy3esQdBR"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Cardano Foundation"
+    }
+  ]
+}

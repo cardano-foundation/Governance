@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action1jr84r96lnsvu9yd6c0jhxe9gj5r7vnd2pgkntc6klplxdpyzz4tqqc9uldx",
+    "summary": "The Cardano Foundation, as a DRep, votes YES on the Snek Budget Loan info action. The loan model is a positive step. Our support for the final treasury withdrawal depends on crucial improvements to the loan's terms and transparency.",
+    "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmafeNzXm91EoiU4yEB4dBeCvfJTWm97hsHUEzjypF1Dp1\n\nThis proposal introduces an innovative and necessary funding mechanism for the Cardano ecosystem: a treasury-backed loan for a scaling commercial entity. This model fills a gap for mature projects seeking growth capital, offering a new path aligned with decentralized principles. The shift from a grant to a repayable loan is an improvement, and the inclusion of Intersect as an administrator and a competent advisory board provides a strong framework for professional oversight.\n\nWhile we acknowledge community concerns regarding the need for more verifiable data and professional conduct, we believe the proposed oversight structure is designed to ensure a high standard of execution. We believe a 'yes' vote on the info action is appropriate to support this experimental approach and allow the process to continue.\n\n## Recommendations for a Treasury Withdrawal Governance Action\nWhile we support this proposal to encourage this direction, our support at the next step - the treasury withdrawal governance action - will depend on the team incorporating key improvements to the loan's terms and transparency. The proposal would need to be updated to address the following key areas to be considered for our support:\n\n## Non-Negotiable Requirements\nThese are essential items required for our support of subsequent treasury withdrawals.\n\n1. Public Availability of the Loan Agreement: The binding loan agreement to be administered by Intersect is a crucial document. We strongly suggest making it public before the treasury withdrawal is submitted. This transparency will help the community understand Intersect’s role and what the precise loan terms are.\n2. A High-Level Cost Breakdown: The proposal should include a breakdown of how the 5 million ada will be allocated across key categories (e.g., listing fees, liquidity, legal) and the timing of expenditure. A budget and cash flow projection are necessary to assess the feasibility of the repayment plan.\n3. A \"Use of Funds\" Clause: The loan agreement should include an explicit clause restricting the use of funds to the stated goals, prohibiting their use for speculative activities like yield farming.\n\n## Strong Recommendations\nThese are recommended improvements that would greatly strengthen the proposal and increase its chances of receiving our support.\nA Revised Interest Rate: The proposed 2.44% APR does not appear to reflect the risk profile of an uncollateralized loan adequately. We would expect a revised rate of 5-10% APR that provides a fair, risk-adjusted return to the Treasury.\n\n1. A Phased Withdrawal Plan: We strongly recommend structuring the 5 million ada withdrawal in multiple tranches tied to specific, verifiable milestones, rather than disbursing it as a single lump sum. This would align funding directly with progress and enhance accountability.\n\n## Note on Governance and Oversight\nTo ensure full transparency, we acknowledge our CEO, Frederik Gregaard's participation on the proposal's advisory board. This role is separate from the Cardano Foundation's function as a DRep. Our vote and rationale stem from an independent evaluation by our governance advisory team, based on the proposal's merits. We see this advisory role as a helpful way to keep the initiative aligned with the ecosystem's best interests. However, it does not influence the outcome of our DRep vote.",
+    "conclusion": "The Cardano Foundation, as a DRep, votes YES to support the direction of this loan-based proposal. Our final position on a treasury withdrawal will be determined by a thorough review of a revised proposal that incorporates these necessary improvements.\n\n\n---\n> **_NOTE on 'Internal Voting':_**\n> The fields _constitutional_ and _unconstitutional_ below reflect the CF governance teams' individual opinions whether they are _for_ or _against_ the proposal. Reason for this inconsistency is, that CIP-136 is at the moment only applicable to CC rationales, but we want to record the internal opinions of our DRep assessment transparently as well.",
+    "internalVote": {
+      "constitutional": 5,
+      "unconstitutional": 0,
+      "abstain": 1,
+      "didNotVote": 0,
+      "againstVote": 0
+    },
+    "references": [
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor URL (IPFS)",
+        "uri": "ipfs://bafkreiegpigegytetkwrqhftqphcqjkammmjipwq2d57s6xkfbtxiq3tei"
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor Hash",
+        "uri": "79e4b2c345da31819fad30408f6eebaee352dff03adbb1a3fd9f15187f5c7e57"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "“Our Cardano” by the Cardano Foundation",
+        "uri": "https://cardanofoundation.org/our-cardano"
+      },
+      {
+        "@type": "Other",
+        "label": "Rationale PDF",
+        "uri": "ipfs://QmafeNzXm91EoiU4yEB4dBeCvfJTWm97hsHUEzjypF1Dp1"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Foundation"
+    }
+  ]
+}

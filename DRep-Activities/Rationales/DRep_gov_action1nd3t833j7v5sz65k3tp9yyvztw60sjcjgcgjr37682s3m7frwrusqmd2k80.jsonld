@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action1nd3t833j7v5sz65k3tp9yyvztw60sjcjgcgjr37682s3m7frwrusqmd2k80",
+    "summary": "The Cardano Foundation as a DRep votes YES on the info governance action (gov_action1nd3t833j7v5sz65k3tp9yyvztw60sjcjgcgjr37682s3m7frwrusqmd2k80) proposing a Net Change Limit (NCL) of 350,000,000,000,000 lovelace (350 million ada) for 2025 (Epoch 532-604) Pdf: ipfs://QmX4kZZW1Wqeb36ZH1qD1LsBQFLtsjpvWJddg6PRdvJEgU",
+    "rationaleStatement": "The Cardano Foundation as a DRep votes YES on the info governance action (gov_action1nd3t833j7v5sz65k3tp9yyvztw60sjcjgcgjr37682s3m7frwrusqmd2k80) proposing a Net Change Limit (NCL) of 350,000,000,000,000 lovelace (350 million ada) for 2025 (Epoch 532-604). This decision reflects our assessment that the proposal provides a necessary foundation for Cardano's budget process and treasury management. <br> Establishing an NCL is a constitutional requirement (Article IV and Appendix I) and a required  step for unlocking constitutional treasury withdrawals. We believe this proposal aligns with key governance principles: <br> 1. Appropriate Term: We believe that to ensure  adaptability in Cardano's dynamic environment, starting with a one year NCL is most appropriate. It allows future NCLs to be informed by realized data. Once processes mature, a multi-year NCL can be reevaluated.  2. Acceptable Methodology:  Setting the NCL based on the previous year's total treasury inflows, offers a fiscally responsible, if somewhat simplistic, approach grounded in empirical data. While we note that the 350 million figure is slightly above the actual  2024 inflow (~336 million ada) the principle itself remains acceptable for a first period. We encourage refinement in the methodology of this calculation for future cycles.  3. Adherence to Best Practices: We are satisfied to see the use of IPFS links for metadata and supporting documentation.",
+    "internalVote": {
+      "constitutional": 3,
+      "unconstitutional": 1,
+      "abstain": 1,
+      "didNotVote": 2,
+      "againstVote": 0
+    }
+  },
+  "references": [
+    {
+      "@type": "Other",
+      "label": "“Our Cardano” by the Cardano Foundation",
+      "uri": "https://www.cardanofoundation.org/our-cardano "
+    },
+    {
+      "@type": "GovernanceMetaData",
+      "label": "Metadata Anchor URL (Original URL)",
+      "uri": "ipfs://bafkreiaqno22swabd3kcqt2awtgwaucdzaagacoemxwadm3exrchhnfite"
+    },
+    {
+      "@type": "GovernanceMetaData",
+      "label": "Metadata Anchor Hash",
+      "uri": "973452e7c4d204c883c6a9e4c311f72ad6237e827ce05e141f3374c8a04f01bc"
+    },
+    {
+      "@type": "GovernanceMetaData",
+      "label": "Treasury Inflow/Outflow Data (Spreadsheet - IPFS)",
+      "uri": "ipfs://bafkreicbaiolimteghbwt54veiuw53nc3eaijudtboif2p6xlsr74myfxy"
+    },
+    {
+      "@type": "GovernanceMetaData",
+      "label": "Treasury Inflow/Outflow Data (PDF - IPFS)",
+      "uri": "ipfs://bafybeihms6haw35awizxa37kuo4qghgmjkldr6lvrcl26mdsk4f6rxdwv4"
+    },
+    {
+      "@type": "RelevantArticles",
+      "label": "Cardano Constitution (Relevant Sections: Article IV, Appendix I)",
+      "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+    },
+    {
+      "@type": "Other",
+      "label": "Rationale PDF",
+      "uri": "ipfs://QmX4kZZW1Wqeb36ZH1qD1LsBQFLtsjpvWJddg6PRdvJEgU"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Cardano Foundation"
+    }
+  ]
+}

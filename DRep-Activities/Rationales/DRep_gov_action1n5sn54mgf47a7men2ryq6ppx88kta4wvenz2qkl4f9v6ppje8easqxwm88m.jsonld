@@ -1,0 +1,107 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action1n5sn54mgf47a7men2ryq6ppx88kta4wvenz2qkl4f9v6ppje8easqxwm88m",
+    "summary": "The Cardano Foundation, as a DRep, votes **YES** on the budget info action titled “Cardano GovTool Budget \\- 12 months full active maintenance and development” (gov\\_action1n5sn54mgf47a7men2ryq6ppx88kta4wvenz2qkl4f9v6ppje8easqxwm88m).",
+    "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmYZpFKsSU6NTLUivvGFaiNQVdEwxhYKwGPJrmrHwTVhkc\n\nWhile acknowledging valid concerns, this is a pragmatic decision based on GovTool’s strategic importance as an open-source public good, ensuring accessibility to Cardano's decentralized governance model.\n\n**Rationale Statement**\n\nThis decision follows a detailed review of the governance action and consideration of diverse viewpoints within our governance advisory team. Our support is based on a pragmatic assessment of GovTool’s role in the ecosystem, balanced against its acknowledged areas for improvement.\n\n**Reasons for a YES Vote:**\n\n1. **Strategic Importance for Governance Accessibility:** A core principle in \"Our Cardano\" is Accessibility, ensuring participation in governance is open to all. GovTool is the primary, non-commercial tool that currently fulfills this mission, providing a neutral and open-source public good for every ada holder to engage in governance. Maintaining its viability at this time, while governance is in a critical stage, is important for Cardano’s governance model, as it prevents reliance on proprietary, closed-source alternatives.  \n2. **Commitment to Open Source and Ecosystem Growth:** The proposal reinforces a commitment to open-source principles, which prevents vendor lock-in and fosters a competitive environment. Furthermore, the budget’s Level 2 funding earmarks 250,000 ada for direct community contributions and to support other open-source governance tools, an approach that should benefit the entire ecosystem.  \n3. **Pragmatic Support for a Proven and Improving Team:** While the tool has known user experience and technical shortcomings, the consortium has a proven track record of consistently delivering and maintaining this infrastructure. They have demonstrated responsiveness to feedback and a commitment to improvement. For lack of better alternatives, supporting this established team represents the most viable path to retaining and enhancing the value GovTool provides.",
+    "counterargumentDiscussion": "Our decision was made while giving full consideration to valid counterarguments. We believe acknowledging these points is crucial for transparency and for setting future expectations:\n\n1. **Cost-Effectiveness Concerns:** A primary counterargument is that the budget of 1.15M ada is too high for the scope of work described. The cost for maintenance and partial extension is nearly equivalent to the tool's entire previous development cost, raising questions about financial efficiency. Additionally, the 250,000 ada allocated for incentivized participation has been critiqued as lacking sufficient definition, particularly in how it will be applied, resembling a \"blanco cheque\".  \n2. **Centralization and Process Transparency:** Concerns have been raised that this proposal could further centralize governance infrastructure under a single consortium and administrator. Furthermore, while the result of community consultation, the process was not a fully open and public \"tender\" where multiple teams could compete on price and approach for each component of the work.",
+    "conclusion": "The Cardano Foundation votes **YES**. While we acknowledge the concerns regarding the proposal's cost and the process by which it was formed, we believe the strategic importance of maintaining a functional, neutral, and open-source public good for governance currently outweighs these issues. This is a pragmatic decision to support important infrastructure, not a blanket endorsement of the proposal in its entirety. We expect the Cardano GovTool Consortium to address the community feedback outlined in this rationale. We will advocate for more transparent, competitive tender processes for all future ecosystem infrastructure funding.",
+    "internalVote": {
+      "constitutional": 4,
+      "unconstitutional": 1,
+      "abstain": 1,
+      "didNotVote": 1,
+      "againstVote": 0
+    },
+    "references": [
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor URL (IPFS)",
+        "uri": "ipfs://QmP9iDuML2VmoFigTJifBj87LxZ3DNnREyU27DE1MrpZDg "
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor Hash",
+        "uri": "b3dc422b419a0e7beee4bf594bcfd344d87e2dc593d0fef5eb1fd218c0a6137b"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "Cardano Constitution (IPFS)",
+        "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+      },
+      {
+        "@type": "Other",
+        "label": "“Our Cardano” by the Cardano Foundation",
+        "uri": "https://cardanofoundation.org/our-cardano"
+      },
+      {
+        "@type": "Other",
+        "label": "Link to GovTool",
+        "uri": "https://gov.tools/"
+      },
+      {
+        "@type": "Other",
+        "label": "Rationale PDF",
+        "uri": "ipfs://QmYZpFKsSU6NTLUivvGFaiNQVdEwxhYKwGPJrmrHwTVhkc"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Foundation"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP129": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0129/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "govActionId": "CIP129:governance-action-identifiers",
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote",
+            "againstVote": "CIP136:againstVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action18fd7jwa06fksmwumlcvlft8v4guvaa672qsp6xgenekvs4kmvcqsq8cqks4",
+    "summary": "The Cardano Foundation votes YES on this governance action. We view the Cardano 2030 as a useful anchor document for the ecosystem. It provides a shared vision and goals to align collective efforts. It provides a necessary benchmark for assessing future treasury investments.",
+    "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmatNZyEKBvJJ4xnKtzTQrY2kvqs9rjFjEwNstxDxB6XS8\n\nThe following key factors drive our support for this proposal:\n\n1. **Strategic Clarity:** We support positioning Cardano as the blockchain for \"mission-critical applications\" with a focus on security and reliability. This differentiation aligns with the network's technical capabilities and target use cases.\n  \n2. **Accountability & Measurement:** The introduction of specific KPIs (such as TVL and Monthly Active Users) is a necessary step toward accountability. While the target of a 3375% increase in transactions by 2030 is ambitious, it provides a measurable scale for aspirations. To ensure accurate tracking, **we specifically call for the use of the new Dune Analytics integrations (funded by the Critical Integrations Budget) to build public dashboards.** Rigorous monitoring is essential to verify if current and future initiatives funded via the treasury are effectively driving growth.  \n\n3. **Process Legitimacy:** This proposal is the result of a globally consultative process involving over 700 participants. We contributed to this effort by having Cardano Foundation team members Alexandre Maaza and Giorgio Zinetti serve on the Product Committee, and by providing feedback via our pull request to the Product Committee repository.  \n\n4. **The Path Forward:** This action sets a destination, but the route remains to be defined. The 5 Strategic Pillars are comprehensive yet broad. To prevent resource dilution, the immediate next step is to create a **concrete 12–18-month execution roadmap**. We recommend that external professionals facilitate this roadmap exercise to ensure structured prioritization and balanced input.  \n\n5. **Ecosystem Sustainability:** We highlight the importance of **Pillar 5**, which advocates transitioning the treasury from a passive pool to an actively managed resource. Ensuring the network's long-term financial health is essential to fund the innovation required to meet these 2030 goals.\n\n### **Disclosure of Involvement**\n\nAlexandre Maaza and Giorgio Zinetti, Cardano Foundation employees, sit on the Intersect Product Committee, which generated this proposal.",
+    "precedentDiscussion": "None",
+    "counterargumentDiscussion": "A minority within our assessment team voted NO, raising concerns about ratifying an official roadmap in a decentralized ecosystem. This view suggests that formalizing a long-term strategy may inadvertently centralize development focus, potentially discouraging contributions outside the defined scope. Furthermore, this document could be used to justify future funding requests primarily based on roadmap alignment rather than individual merit. Finally, the utility of a 5-year horizon is questioned given the rapid pace of industry change, with a preference expressed for shorter, tangible execution plans over broad strategic goals.",
+    "conclusion": "The Cardano Foundation votes YES. By ratifying this 2030 Vision, we equip the ecosystem with a strategic framework to focus resources. We look forward to the next phase of defining the execution roadmap.\n\n`---`\n\n`> **_NOTE on 'Internal Voting':_**`\n\n`> The fields _constitutional_ and _unconstitutional_ below reflect the CF governance teams' individual opinions whether they are _for_ or _against_ the proposal. Reason for this inconsistency is, that CIP-136 is at the moment only applicable to CC rationales, but we want to record the internal opinions of our DRep assessment transparently as well.`",
+    "internalVote": {
+      "constitutional": 3,
+      "unconstitutional": 1,
+      "abstain": 0,
+      "didNotVote": 1,
+      "againstVote": 0
+    },
+    "references": [
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor URL (IPFS)",
+        "uri": "ipfs://bafkreifxxz6n33l5umvgxdoxzp35gsnbzvi63slmeqnwg3pj4gsrwnzr4e"
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor Hash",
+        "uri": "4fbbbd12cf0f2a4be498627a5c99d95762690eb57e276089f5d646877f95cf59"
+      },
+      {
+        "@type": "Other",
+        "label": "Cardano Foundation Pull Request to Product Committee Repository",
+        "uri": "https://github.com/IntersectMBO/product-website/pull/34"
+      },
+      {
+        "@type": "Other",
+        "label": "“Our Cardano” by the Cardano Foundation",
+        "uri": "https://cardanofoundation.org/our-cardano"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "Cardano Constitution (IPFS)",
+        "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+      },
+      {
+        "@type": "Other",
+        "label": "Rationale PDF",
+        "uri": "ipfs://QmatNZyEKBvJJ4xnKtzTQrY2kvqs9rjFjEwNstxDxB6XS8"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Foundation"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action13836fuy3yttxn4hkeqka398q9qnwsjtmul4sxc3nht7qae8uvejsqm7ukh8",
+    "summary": "The Cardano Foundation, as a DRep, votes YES on the \"Cardano in Oceania\" budget info action. We believe the initiative is strategically sound and deserves a principled vote.",
+    "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmV485zWtLjm5VqbsSzSCgqhUAPftFCuCCcgczkhbQNChe\n\nThis proposal is a professional and grassroots effort to create a regional hub for Cardano. The plan to develop a repeatable model for ecosystem growth is a valuable strategic objective. We also note the inclusion of a milestone-based funding model and a framework for KPIs, which demonstrates a commitment to accountability. The team consists of active and credible community members.\n\n## Recommendations for a Treasury Withdrawal Proposal\nWhile we support the direction of this info action, a subsequent treasury withdrawal proposal or revised info action should be significantly strengthened by addressing the following areas:\n1. A More Focused Scope: The current strategy is broad, aiming to deliver initiatives across multiple verticals (government, enterprise, non-profits) at once. Our recommendation is to narrow the focus of this proposal to one or two key areas where the team has existing networks. This would likely yield faster, more tangible results and build a stronger foundation for later expansion.\n2. Establishment of Baseline Data: The proposal outlines KPIs for growth but lacks baseline data on the region's current status (e.g., DRep participation, developer activity). To accurately measure the impact of the initiative, we would expect a treasury withdrawal proposal to include this starting-point data.",
+    "conclusion": "The Cardano Foundation, as a DRep, votes YES to signal our support for this type of strategic, community-led initiative and to encourage the proposers. We are confident that a more focused plan with clear baseline metrics would present a compelling case for funding, and we look forward to reviewing a revised proposal at the info action or treasury withdrawal stage.\n\n---\n> **_NOTE on 'Internal Voting':_**\n> The fields _constitutional_ and _unconstitutional_ below reflect the CF governance teams' individual opinions whether they are _for_ or _against_ the proposal. Reason for this inconsistency is, that CIP-136 is at the moment only applicable to CC rationales, but we want to record the internal opinions of our DRep assessment transparently as well.",
+    "internalVote": {
+      "constitutional": 5,
+      "unconstitutional": 0,
+      "abstain": 0,
+      "didNotVote": 1,
+      "againstVote": 0
+    },
+    "references": [
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor URL (IPFS)",
+        "uri": "ipfs://QmTRrewK9MzARcCSYNFwmqizjFpMRK2kZhe9R6NJU4XHwJ"
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor Hash",
+        "uri": "103ff312c9aa10e80ac8c2b572e1c0a33975f22441b0a14d09bcbbb2310b11eb"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "“Our Cardano” by the Cardano Foundation",
+        "uri": "https://cardanofoundation.org/our-cardano"
+      },
+      {
+        "@type": "Other",
+        "label": "Rationale PDF",
+        "uri": "ipfs://QmV485zWtLjm5VqbsSzSCgqhUAPftFCuCCcgczkhbQNChe"
+      }
+    ]
+  }
+}

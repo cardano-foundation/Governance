@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP129": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0129/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "govActionId": "CIP129:governance-action-identifiers",
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote",
+            "againstVote": "CIP136:againstVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action1x2zm0lgd59kjrc9clzgscdlh0ct62l8llr638h6t4a5jj4yqzzyqq2dgc7q",
+    "summary": "The Cardano Foundation, as a DRep, votes YES on this budget info action. Reimbursing the proposer who lost 100'000 ada deposit due to a protocol issue is straightforward. Our support for the subsequent treasury withdrawal is contingent on the funds being sent to the original, affected stake address.",
+    "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmTzJxArrbRtW99K1iCB6tSiWu8qLDb57NoCoy84pJNdhd\n\nThis proposal aims to correct a well-documented technical issue from the first weeks of on-chain governance. The Cardano Foundation supports this action based on the following:\n\n- **Correcting a Protocol-Level Flaw:** This is not a typical funding request, but a reimbursement. An early pioneer of the governance system lost their deposit due to a bug in the node that allowed an unregistered stake key to be used, a flaw that has since been fixed. We reject the counterargument that this was simple user error; the technical requirements were not documented in an accessible way for the community at the time. Upholding the integrity of the governance system means making this user whole.\n- **Community-Aligned Action:** There has been widespread, long-standing community agreement that this reimbursement is the right and fair thing to do. Voting \"yes\" aligns with this community consensus and strengthens trust in the governance process.\n- **Reasonable Compensation:** The request for 103,000 ada is reasonable. It covers the 100,000 ada principal and a modest 3,000 ada to compensate for lost staking rewards and other opportunities. This additional amount is a fair calculation to fully restore the user to the position they would have been in.\n\n\n\n## Condition for Treasury Withdrawal\nOur support for this budget info action is given with one clear condition for the subsequent treasury withdrawal: **the proposer must provide verifiable proof that they are the original, affected party.**\nThis current proposal was submitted from a different stake address (`stake1u8453de8xhhqa9c4ftvylkke8we84tmaq5hz75qwfgaaf2qac45ja`) than the one that lost the deposit (`stake1uys93fhep4lc2u6lu0q09kcxayxzthasded35c0x0w60ugc9s0cm5`). To prevent a fraudulent claim and ensure the correct party is reimbursed, the proposer must, at the treasury withdrawal stage, provide definitive proof of identity.\n\nThis proof could be provided in one of two ways:\n1. **Direct Payout:** The treasury withdrawal is submitted with the payout address set to the original, affected stake address (`...c9s0cm5`).\n2. **Cryptographic Proof:** The proposer provides a message signed by the stake key associated with the original (`...c9s0cm5`) address, confirming their identity and directing the funds to the new address.\n\nWithout such proof, we will not support the final treasury withdrawal.",
+    "conclusion": "The Cardano Foundation votes **YES**. This is a necessary corrective measure to maintain fairness and trust in the protocol. We support this budget with the explicit condition that the final reimbursement is verifiably sent to the original stakeholder who incurred the loss.\n\n---\n\n> **_NOTE on 'Internal Voting':_**\n> The fields _constitutional_ and _unconstitutional_ below reflect the CF governance teams' individual opinions whether they are _for_ or _against_ the proposal. Reason for this inconsistency is, that CIP-136 is at the moment only applicable to CC rationales, but we want to record the internal opinions of our DRep assessment transparently as well.",
+    "internalVote": {
+      "constitutional": 4,
+      "unconstitutional": 0,
+      "abstain": 0,
+      "didNotVote": 1,
+      "againstVote": 0
+    },
+    "references": [
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor URL (IPFS)",
+        "uri": "QmR7khTUdWyQFdNvyXDsuyZLUNsdfm7Ejo9wKfKdRE3ReG"
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor Hash",
+        "uri": "78c5d369af0bd488807d9bd15bf19c13e2cc063e96bd4ab17ed7f8a57a8ba1ba"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "Cardano Constitution",
+        "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "“Our Cardano” by the Cardano Foundation",
+        "uri": "https://cardanofoundation.org/our-cardano"
+      },
+      {
+        "@type": "Other",
+        "label": "Rationale PDF",
+        "uri": "ipfs://QmTzJxArrbRtW99K1iCB6tSiWu8qLDb57NoCoy84pJNdhd"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Foundation"
+    }
+  ]
+}

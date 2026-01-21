@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action1n9hdlcmshrj3hee4g8n4fxdgrprpxp0r03l6psd3j0evtpck0nrsqm57age",
+    "summary": "The Cardano Foundation votes ABSTAIN on the Product Committee’s draft Cardano 2030 Vision & Strategy. Our vote is a commentary on the submission process, not the content. We are actively engaged with the Product Committee and look forward to voting on their final draft, once it is submitted.",
+    "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmcPjY4xobTho6bFzHT2YsmCifdk93fGnrFgDToAZjCiRJ\n\nA clear, community-ratified vision and strategy is crucial for Cardano's long-term success. The Cardano Foundation is an active and supportive participant in the Product Committee’s work to develop this vision, a mandate they received via a funded treasury withdrawal (gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlr24hsvpk). Our team has been collaborating with the Committee, attending workshops, and providing detailed feedback through the Committee’s established channels to help refine the draft document.\nWe have decided to vote **ABSTAIN** on this governance action as we believe it has been submitted prematurely and its content is not reflective of the Product Committee’s final draft. This action was submitted by a community member, not by the Product Committee itself. While we encourage community initiative, voting 'Yes' or 'No' on this submission would undermine the Committee's own structured process for gathering and incorporating feedback into a finalised draft. \nTo ensure our feedback continues to be constructive and delivered effectively, we will continue to provide input directly to the Product Committee via their official channels.",
+    "conclusion": "The Cardano Foundation votes to ABSTAIN. This decision is not a judgment on the content of the linked Cardano 2030 Vision & Strategy document itself, but is based on the unfinished nature of the draft submitted for voting. We strongly encourage the Product Committee to continue its important work and look forward to participating in an official governance action on this document when submitted by the Committee. \n\n---\n\n> **_NOTE on 'Internal Voting':_**\n> The fields _constitutional_ and _unconstitutional_ below reflect the CF governance teams' individual opinions whether they are _for_ or _against_ the proposal. Reason for this inconsistency is, that CIP-136 is at the moment only applicable to CC rationales, but we want to record the internal opinions of our DRep assessment transparently as well.",
+    "internalVote": {
+      "constitutional": 0,
+      "unconstitutional": 0,
+      "abstain": 4,
+      "didNotVote": 1,
+      "againstVote": 0
+    },
+    "references": [
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor URL (IPFS)",
+        "uri": "ipfs://bafkreigc2vumhgcgfuouuk5ndom4dg3yxncuhdcsyirbkybggd5bv47sve "
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor Hash",
+        "uri": "19581423957b0f155170d04e8654374e205ab0e95ffa3a05c84b55ccc5deac70"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "Cardano Constitution (IPFS)",
+        "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy "
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "“Our Cardano” by the Cardano Foundation",
+        "uri": "https://cardanofoundation.org/our-cardano"
+      },
+      {
+        "@type": "Other",
+        "label": "Rationale PDF",
+        "uri": "ipfs://QmcPjY4xobTho6bFzHT2YsmCifdk93fGnrFgDToAZjCiRJ"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Foundation"
+    }
+  ]
+}

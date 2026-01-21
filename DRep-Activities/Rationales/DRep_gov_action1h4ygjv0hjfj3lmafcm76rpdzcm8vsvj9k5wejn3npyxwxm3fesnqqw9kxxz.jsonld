@@ -1,131 +1,116 @@
 {
-    "@context":
-    {
-        "@language": "en-us",
-        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
-        "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
-        "hashAlgorithm": "CIP100:hashAlgorithm",
-        "body":
-        {
-            "@id": "CIP136:body",
-            "@context":
-            {
-                "references":
-                {
-                    "@id": "CIP100:references",
-                    "@container": "@set",
-                    "@context":
-                    {
-                        "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
-                        "Other": "CIP100:OtherReference",
-                        "label": "CIP100:reference-label",
-                        "uri": "CIP100:reference-uri",
-                        "RelevantArticles": "CIP136:RelevantArticles"
-                    }
-                },
-                "summary": "CIP136:summary",
-                "rationaleStatement": "CIP136:rationaleStatement",
-                "precedentDiscussion": "CIP136:precedentDiscussion",
-                "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
-                "conclusion": "CIP136:conclusion",
-                "internalVote":
-                {
-                    "@id": "CIP136:internalVote",
-                    "@container": "@set",
-                    "@context":
-                    {
-                        "constitutional": "CIP136:constitutional",
-                        "unconstitutional": "CIP136:unconstitutional",
-                        "abstain": "CIP136:abstain",
-                        "didNotVote": "CIP136:didNotVote"
-                    }
-                }
-            }
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
         },
-        "authors":
-        {
-            "@id": "CIP100:authors",
-            "@container": "@set",
-            "@context":
-            {
-                "did": "@id",
-                "name": "http://xmlns.com/foaf/0.1/name",
-                "witness":
-                {
-                    "@id": "CIP100:witness",
-                    "@context":
-                    {
-                        "witnessAlgorithm": "CIP100:witnessAlgorithm",
-                        "publicKey": "CIP100:publicKey",
-                        "signature": "CIP100:signature"
-                    }
-                }
-            }
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
         }
+      }
     },
-    "hashAlgorithm": "blake2b-256",
-    "body":
-    {
-        "govActionId": "gov_action1h4ygjv0hjfj3lmafcm76rpdzcm8vsvj9k5wejn3npyxwxm3fesnqqw9kxxz",
-        "summary": "The Cardano Foundation, as a DRep, votes YES on the Governance Action (gov_action1h4ygjv0hjfj3lmafcm76rpdzcm8vsvj9k5wejn3npyxwxm3fesnqqw9kxxz), which proposes a budget of 1,500,000 ada for the Amaru Node Development project for the second half of 2025.",
-        "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmcdsDg2YATNBfRThUsAj3XJr1smLqVFPuikrdVMJsNtcJ\n\nThis decision reflects our assessment that the Amaru project is of significant strategic importance to the Cardano ecosystem, offers compelling value, is stewarded by a highly capable team, and incorporates robust mechanisms for governance and accountability. \n\nOur decision to vote 'YES' is based primarily on these reasons:\n\n1. **Strategic Importance & Ecosystem Benefit:** The development of Amaru, a second, Rust-based, fully interoperable block-producing node, is crucial for enhancing network resilience, furthering decentralization, and improving the overall robustness of Cardano. This initiative also promises to lower barriers for new developers to contribute to Cardano's core infrastructure by leveraging the Rust programming language. This directly supports the ecosystem principle of \"Core Development\" recorded in “Our Cardano,” which emphasizes the value of multiple implementations of core software.\n\n2. **Team Capability & Governance Structure:** The project is spearheaded by a highly capable and specialized maintainer committee composed of individuals with proven track records within the Cardano community. The involvement of PRAGMA, a consortium of established ecosystem entities (including the Cardano Foundation), further instills confidence in the project's governance and execution.\n\n3. **Value for Money & Scope Clarity:** The requested 1.5 million ada for the second half of 2025, covering critical development work, represents excellent value, especially considering the potential impact of delivering a second block producing node for the Cardano mainnet. The proposal's clearly defined scope and detailed budget breakdown facilitate transparent assessment and accountability.\n\n4. **Funds Administration & Transparency:** The proposed mechanisms for fund administration, utilizing an open-source smart contract with defined features and failsafes, overseen by the maintainer committee, are commendable. Commitments to regular public reporting and demos further support transparency and community oversight. The proposal also adequately addresses auditing provisions.\n\n\n## Transparency and Conflict of Interest Management:\nThe Cardano Foundation is a member of PRAGMA, the open-source association under which the Amaru project is managed. Additionally, two Cardano Foundation employees, Matthias Benkort and Arnaud Bailly, are members of the Amaru Maintainer Committee.\n\nTo ensure impartiality and uphold the highest standards of governance, Matthias Benkort, who also serves on the Cardano Foundation's internal Governance Advisory Team, formally recused himself from all internal Foundation discussions, deliberations, and the formulation of this voting recommendation concerning the Amaru budget proposal, due to his direct involvement in the project. This recusal ensures that the Foundation's DRep voting decision is based on an objective assessment by unconflicted parties within our governance structure. Arnaud Bailly, in his capacity as a Cardano Foundation employee, has no involvement or say in the decision-making process concerning this proposal and therefore does not impact the objectivity of the Cardano Foundation's decision in this matter.",
-        "conclusion": "Given the significant strategic benefits of node diversity, the strength and experience of the Amaru team, the clear value proposition, robust governance plans, and the project's alignment with Cardano's long-term vision, the Foundation votes YES on this budget proposal. Funding Amaru is a vital investment in the future resilience, decentralization, and innovation of the Cardano ecosystem.\n\n\n---\n> **_NOTE on 'Internal Voting':_** \n> The fields _constitutional_ and _unconstitutional_ below reflect the CF governance teams' individual opinions whether they are _for_ or _against_ the proposal. \n> Reason for this inconsistency is, that CIP-136 is at the moment only applicable to CC rationales, but we want to record the internal opinions of our DRep assessment transparently as well.\n---",
-        "internalVote":
-        {
-            "constitutional": 6,
-            "unconstitutional": 0,
-            "abstain": 0,
-            "didNotVote": 1,
-            "againstVote": 0
-        },
-        "references":
-        [
-            {
-                "@type": "GovernanceMetadata",
-                "label": "Metadata Anchor URL (IPFS)",
-                "uri": "ipfs://bafkreibqma7t2k4rcywvx5afukahhi3dp2so2ugh7t4ljuawhanvk7sr34"
-            },
-            {
-                "@type": "GovernanceMetadata",
-                "label": "Metadata Anchor Hash",
-                "uri": "7d2f344f3651a8372ad603abf11fcb310fb3c5154a6592591d1ff97d951156e3"
-            },
-            {
-                "@type": "RelevantArticles",
-                "label": "PRAGMA Maintainer Committee Framework (IPFS)",
-                "uri": "ipfs://bafkreiabxyva5lfm6zztg7tnktxvvbbucljrce7hlrp4p6hropqzfaip3y"
-            },
-            {
-                "@type": "RelevantArticles",
-                "label": "Amaru Detailed Budget Proposal for 2025 (IPFS)",
-                "uri": "ipfs://bafybeicyqwjcg4x52l4ml5ocjlqnproqdjgfbguxdge4saxxvu2hidzvpq"
-            },
-            {
-                "@type": "RelevantArticles",
-                "label": "Cardano Constitution (IPFS)",
-                "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
-            },
-            {
-                "@type": "RelevantArticles",
-                "label": "Definitions for the Cardano Constitution (IPFS)",
-                "uri": "ipfs://bafkreiewp5bgrdiesq6ft3qypykgcjhvfgpp4s5o4yrjrvko4wuhi4iecu"
-            },
-            {
-                "@type": "RelevantArticles",
-                "label": "“Our Cardano” by the Cardano Foundation",
-                "uri": "https://cardanofoundation.org/our-cardano "
-            },
-            {
-                "@type": "Other",
-                "label": "Rationale PDF",
-                "uri": "ipfs://QmcdsDg2YATNBfRThUsAj3XJr1smLqVFPuikrdVMJsNtcJ"
-            }
-        ]
-    },
-    "authors":
-    [
-        {
-            "name": "Cardano Foundation"
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
         }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action1h4ygjv0hjfj3lmafcm76rpdzcm8vsvj9k5wejn3npyxwxm3fesnqqw9kxxz",
+    "summary": "The Cardano Foundation, as a DRep, votes YES on the Governance Action (gov_action1h4ygjv0hjfj3lmafcm76rpdzcm8vsvj9k5wejn3npyxwxm3fesnqqw9kxxz), which proposes a budget of 1,500,000 ada for the Amaru Node Development project for the second half of 2025.",
+    "rationaleStatement": "A [PDF version][pdf-link] of this rationale is also made available.\n\n[pdf-link]: https://ipfs.io/ipfs/QmcdsDg2YATNBfRThUsAj3XJr1smLqVFPuikrdVMJsNtcJ\n\nThis decision reflects our assessment that the Amaru project is of significant strategic importance to the Cardano ecosystem, offers compelling value, is stewarded by a highly capable team, and incorporates robust mechanisms for governance and accountability. \n\nOur decision to vote 'YES' is based primarily on these reasons:\n\n1. **Strategic Importance & Ecosystem Benefit:** The development of Amaru, a second, Rust-based, fully interoperable block-producing node, is crucial for enhancing network resilience, furthering decentralization, and improving the overall robustness of Cardano. This initiative also promises to lower barriers for new developers to contribute to Cardano's core infrastructure by leveraging the Rust programming language. This directly supports the ecosystem principle of \"Core Development\" recorded in “Our Cardano,” which emphasizes the value of multiple implementations of core software.\n\n2. **Team Capability & Governance Structure:** The project is spearheaded by a highly capable and specialized maintainer committee composed of individuals with proven track records within the Cardano community. The involvement of PRAGMA, a consortium of established ecosystem entities (including the Cardano Foundation), further instills confidence in the project's governance and execution.\n\n3. **Value for Money & Scope Clarity:** The requested 1.5 million ada for the second half of 2025, covering critical development work, represents excellent value, especially considering the potential impact of delivering a second block producing node for the Cardano mainnet. The proposal's clearly defined scope and detailed budget breakdown facilitate transparent assessment and accountability.\n\n4. **Funds Administration & Transparency:** The proposed mechanisms for fund administration, utilizing an open-source smart contract with defined features and failsafes, overseen by the maintainer committee, are commendable. Commitments to regular public reporting and demos further support transparency and community oversight. The proposal also adequately addresses auditing provisions.\n\n\n## Transparency and Conflict of Interest Management:\nThe Cardano Foundation is a member of PRAGMA, the open-source association under which the Amaru project is managed. Additionally, two Cardano Foundation employees, Matthias Benkort and Arnaud Bailly, are members of the Amaru Maintainer Committee.\n\nTo ensure impartiality and uphold the highest standards of governance, Matthias Benkort, who also serves on the Cardano Foundation's internal Governance Advisory Team, formally recused himself from all internal Foundation discussions, deliberations, and the formulation of this voting recommendation concerning the Amaru budget proposal, due to his direct involvement in the project. This recusal ensures that the Foundation's DRep voting decision is based on an objective assessment by unconflicted parties within our governance structure. Arnaud Bailly, in his capacity as a Cardano Foundation employee, has no involvement or say in the decision-making process concerning this proposal and therefore does not impact the objectivity of the Cardano Foundation's decision in this matter.",
+    "conclusion": "Given the significant strategic benefits of node diversity, the strength and experience of the Amaru team, the clear value proposition, robust governance plans, and the project's alignment with Cardano's long-term vision, the Foundation votes YES on this budget proposal. Funding Amaru is a vital investment in the future resilience, decentralization, and innovation of the Cardano ecosystem.\n\n\n---\n> **_NOTE on 'Internal Voting':_** \n> The fields _constitutional_ and _unconstitutional_ below reflect the CF governance teams' individual opinions whether they are _for_ or _against_ the proposal. \n> Reason for this inconsistency is, that CIP-136 is at the moment only applicable to CC rationales, but we want to record the internal opinions of our DRep assessment transparently as well.\n---",
+    "internalVote": {
+      "constitutional": 6,
+      "unconstitutional": 0,
+      "abstain": 0,
+      "didNotVote": 1,
+      "againstVote": 0
+    },
+    "references": [
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor URL (IPFS)",
+        "uri": "ipfs://bafkreibqma7t2k4rcywvx5afukahhi3dp2so2ugh7t4ljuawhanvk7sr34"
+      },
+      {
+        "@type": "GovernanceMetadata",
+        "label": "Metadata Anchor Hash",
+        "uri": "7d2f344f3651a8372ad603abf11fcb310fb3c5154a6592591d1ff97d951156e3"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "PRAGMA Maintainer Committee Framework (IPFS)",
+        "uri": "ipfs://bafkreiabxyva5lfm6zztg7tnktxvvbbucljrce7hlrp4p6hropqzfaip3y"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "Amaru Detailed Budget Proposal for 2025 (IPFS)",
+        "uri": "ipfs://bafybeicyqwjcg4x52l4ml5ocjlqnproqdjgfbguxdge4saxxvu2hidzvpq"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "Cardano Constitution (IPFS)",
+        "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "Definitions for the Cardano Constitution (IPFS)",
+        "uri": "ipfs://bafkreiewp5bgrdiesq6ft3qypykgcjhvfgpp4s5o4yrjrvko4wuhi4iecu"
+      },
+      {
+        "@type": "RelevantArticles",
+        "label": "“Our Cardano” by the Cardano Foundation",
+        "uri": "https://cardanofoundation.org/our-cardano "
+      },
+      {
+        "@type": "Other",
+        "label": "Rationale PDF",
+        "uri": "ipfs://QmcdsDg2YATNBfRThUsAj3XJr1smLqVFPuikrdVMJsNtcJ"
+      }
     ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Foundation"
+    }
+  ]
 }

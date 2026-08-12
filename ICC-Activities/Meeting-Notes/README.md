@@ -65,6 +65,40 @@ The following table provides links to our published meeting notes. Each entry in
 | 2025-08-20 | [ICC Governance Meeting - 20 August 2025](./2025-08-20.md) | Four live actions; urgent CC update timing; DRep/SPO voting strategy & conflicts; SNEK treasury withdrawals (eligibility & representation). |
 | 2025-08-27 | [ICC Governance Meeting - 27 August 2025](./2025-08-27.md) | ICC term timing & prioritization; SNEK withdrawals resubmission plan; new constitution action (75% DRep threshold). |
 | 2025-09-03 | [ICC Governance Meeting - 03 September 2025](./2025-09-03.md) | Transition to new CC (Sept 6); SNEK outcomes & comms; “Cardano in Oceania” budget/admin review. |
+| 2025-09-10 | [Governance Advisory Team Meeting - 10 September 2025](./2025-09-10.md) | Cardano in Oceania approval levels; SNEK budget info action; loan terms & contract transparency. |
+| 2025-09-17 | [Governance Advisory Team Meeting - 17 September 2025](./2025-09-17.md) | Cardano in Oceania & SNEK budget updates; new Stablecoin DeFi Liquidity Budget proposal. |
+| 2025-09-24 | [Governance Advisory Team Meeting - 24 September 2025](./2025-09-24.md) | Cardano 2030 vision & strategy info action; GovTool treasury withdrawal; stablecoin DeFi two-level governance. |
+| 2025-10-01 | [Governance Advisory Team Meeting - 01 October 2025](./2025-10-01.md) | Five live actions; Cardano 2030 Vision & Strategy; Stablecoin DeFi Liquidity Budget. |
+| 2025-10-08 | [Governance Advisory Team Meeting - 08 October 2025](./2025-10-08.md) | Stablecoin DeFi support & precedent-setting; Catalyst cubic root voting; internal feedback processes. |
+| 2025-10-15 | [Governance Advisory Team Meeting - 15 October 2025](./2025-10-15.md) | Stablecoin DeFi budget passes (65%); SNEK follow-up; treasury funds & NCL; Cardano Vision 2030. |
+| 2025-10-22 | [Governance Advisory Team Meeting - 22 October 2025](./2025-10-22.md) | CC member participation; GovTools withdrawal; CC compensation proposal; Constitution 2.3; .ada/.cardano TLD. |
+| 2025-10-29 | [Governance Advisory Team Meeting - 29 October 2025](./2025-10-29.md) | GovTools result (56%); new Constitution outlook; SNEK loan agreement discrepancy; TLD action; deposit reimbursement. |
+| 2025-11-05 | [Governance Advisory Team Meeting - 05 November 2025](./2025-11-05.md) | New Constitution short of 75%; SNEK repayment inconsistencies; CC compensation & TLD; Intersect year-end actions & ED search. |
+| 2025-11-26 | [Governance Advisory Team Meeting - 26 November 2025](./2025-11-26.md) | Atlantic Council CC retirement; paused ratifications; snap election candidates; expired actions. |
+| 2025-12-03 | [Governance Advisory Team Meeting - 03 December 2025](./2025-12-03.md) | Cardano Critical Integrations Budget (CIB); NCL extension; CC snap election preliminary results. |
+| 2025-12-10 | [Governance Advisory Team Meeting - 10 December 2025](./2025-12-10.md) | CIB & NCL extension thresholds met; vote on new CC member from snap election. |
+| 2025-12-17 | [Governance Advisory Team Meeting - 17 December 2025](./2025-12-17.md) | Adding 8th CC member; CIB withdrawal prioritisation & timing collision; community communication. |
+| 2026-01-07 | [Governance Advisory Team Meeting - 07 January 2026](./2026-01-07.md) | Constitution v2.4 ratification; CIB execution; Cardano 2030 Vision concerns; treasury vs. loan/VC funding. |
+| 2026-01-14 | [Governance Advisory Team Meeting - 14 January 2026](./2026-01-14.md) | Six active actions; Cardano 2030 & Constitution 2.4; CC member addition; DeltaDeFi budget; NCL. |
+| 2026-01-21 | [Governance Advisory Team Meeting - 21 January 2026](./2026-01-21.md) | Constitution v2.4 enacted; Cardano 2030 Vision approved; NCL debate; memory units parameter change. |
+| 2026-01-28 | [Governance Advisory Team Meeting - 28 January 2026](./2026-01-28.md) | New Constitution in effect; immutable metadata rules; SPO participation drive; DeFi Stablecoin withdrawal compliance. |
+| 2026-02-04 | [Governance Advisory Team Meeting - 04 February 2026](./2026-02-04.md) | Delta DeFi proposal expiration; critically low SPO participation in parameter change action. |
+| 2026-02-12 | [Governance Advisory Team Meeting - 12 February 2026](./2026-02-12.md) | CC voting requirement on NCL; NCL approved and active; two parameter change actions. |
+| 2026-02-25 | [Governance Advisory Team Meeting - 25 February 2026](./2026-02-25.md) | Budget process info action; DeFi Liquidity Budget constitutional failure; CC minimum size action; 300M NCL; Amaru. |
+| 2026-03-04 | [Governance Advisory Team Meeting - 04 March 2026](./2026-03-04.md) | 300M NCL; Amaru withdrawal hurdles; Intersect budget timeline; info action submission timing. |
+| 2026-03-11 | [Governance Advisory Team Meeting - 11 March 2026](./2026-03-11.md) | 300M NCL; Amaru & CC support; Intersect 5-stage budget process; Dingo Go node; DeFi Liquidity resubmission. |
+| 2026-03-18 | [Governance Advisory Team Meeting - 18 March 2026](./2026-03-18.md) | Amaru withdrawal finalisation; Draper Dragon Orion Fund; Project Catalyst Managing Entity; NCL; budget framework. |
+| 2026-03-25 | [Governance Advisory Team Meeting - 25 March 2026](./2026-03-25.md) | Amaru ratification; Intersect budget process approval; Dingo Node; Draper Dragon Orion Fund. |
+| 2026-04-08 | [Governance Advisory Team Meeting - 08 April 2026](./2026-04-08.md) | Orion Fund ratification; expiring Dingo & DeFi Liquidity actions; Catalyst transition; Pebble & Gerolamo review. |
+| 2026-04-15 | [Governance Advisory Team Meeting - 15 April 2026](./2026-04-15.md) | Dingo & DeFi Liquidity enactment; Pebble & Gerolamo risks; light client utility; Summit/TOKEN2049 withdrawal. |
+| 2026-04-22 | [Governance Advisory Team Meeting - 22 April 2026](./2026-04-22.md) | Summit & TOKEN2049 opposition; Pebble & Gerolamo constitutionality; DRep delegation & voting autonomy. |
+| 2026-04-29 | [Governance Advisory Team Meeting - 29 April 2026](./2026-04-29.md) | Nine IO actions; workstream overlaps & FTE double-counting; Summit abstain position; milestone verification. |
+| 2026-05-06 | [Governance Advisory Team Meeting - 06 May 2026](./2026-05-06.md) | Intersect Committee election irregularities; TOKEN2049 sponsorships; Gerolamo rejection; Pebble support; IO contributor costs. |
+| 2026-05-13 | [Governance Advisory Team Meeting - 13 May 2026](./2026-05-13.md) | Developer Experience; Cardano Upgrades; Consensus Initiative (Leios); Cardano Maintenance conflicts of interest. |
+| 2026-05-19 | [Governance Advisory Team Meeting - 19 May 2026](./2026-05-19.md) | Midgard L2 scalability; Hydra state channel limits; High Assurance proposal; Plutus usability upgrades. |
+| 2026-05-20 | [Governance Advisory Team Meeting - 20 May 2026](./2026-05-20.md) | Blockfrost proposal; Pogun Bitcoin DeFi; L1 vs L2 upgrade debate; Cardano Maintenance; Vision 2026. |
+| 2026-05-27 | [Governance Advisory Team Meeting - 27 May 2026](./2026-05-27.md) | TWEAG resubmission; agricultural traceability; omnibus unbundling; Plutus parameter change; Eternl loan; private voting. |
+| 2026-06-03 | [Governance Advisory Team Meeting - 03 June 2026](./2026-06-03.md) | TWEAG; OriLife traceability; Plutus cost model; 5 a.m. Earth; OSPO; Scalus; Eternl transition. |
 
 More notes will be added to this table as they are published.
 

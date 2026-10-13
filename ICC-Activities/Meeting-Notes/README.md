@@ -99,6 +99,16 @@ The following table provides links to our published meeting notes. Each entry in
 | 2026-05-20 | [Governance Advisory Team Meeting - 20 May 2026](./2026-05-20.md) | Blockfrost proposal; Pogun Bitcoin DeFi; L1 vs L2 upgrade debate; Cardano Maintenance; Vision 2026. |
 | 2026-05-27 | [Governance Advisory Team Meeting - 27 May 2026](./2026-05-27.md) | TWEAG resubmission; agricultural traceability; omnibus unbundling; Plutus parameter change; Eternl loan; private voting. |
 | 2026-06-03 | [Governance Advisory Team Meeting - 03 June 2026](./2026-06-03.md) | TWEAG; OriLife traceability; Plutus cost model; 5 a.m. Earth; OSPO; Scalus; Eternl transition. |
+| 2026-06-10 | [Governance Advisory Team Meeting - 10 June 2026](./2026-06-10.md) | Scalus & OSPO; Eternl transition; CC minimum size; Rare Evo; Intersect budget proposals. |
+| 2026-07-08 | [Governance Advisory Team Meeting - 08 July 2026](./2026-07-08.md) | NCL exhaustion & "No" rationale template; Alchemy/Sundial; resubmissions; hard fork timing conflicts. |
+| 2026-07-15 | [Governance Advisory Team Meeting - 15 July 2026](./2026-07-15.md) | Active proposal performance; Intersect resubmissions; CC election candidates & structure. |
+| 2026-07-22 | [Governance Advisory Team Meeting - 22 July 2026](./2026-07-22.md) | NCL headroom; July 28th expirations; AlphaGrowth & 500M NCL; 2027 NCL planning; Blockfrost. |
+| 2026-07-29 | [Governance Advisory Team Meeting - 29 July 2026](./2026-07-29.md) | NCL deficit policy; Global Order Book & Scalus; 500M NCL & AlphaGrowth; Bifrost bridge. |
+| 2026-08-05 | [Governance Advisory Team Meeting - 05 August 2026](./2026-08-05.md) | 500M NCL; Decentralized OSPO; AlphaGrowth; minPoolCost & Plutus memory; hard fork naming; CC update. |
+| 2026-08-19 | [Governance Advisory Team Meeting - 19 August 2026](./2026-08-19.md) | CC Update 2026 & minPoolCost participation; SPO & exchange outreach; Governance Incentives Framework. |
+| 2026-09-16 | [Governance Advisory Team Meeting - 16 September 2026](./2026-09-16.md) | OpenZeppelin treasury withdrawal; minimum pool cost reduction to 75 ada. |
+| 2026-09-23 | [Governance Advisory Team Meeting - 23 September 2026](./2026-09-23.md) | OpenZeppelin tooling overlap; stake pool target parameter (k) info action. |
+| 2026-09-30 | [Governance Advisory Team Meeting - 30 September 2026](./2026-09-30.md) | OpenZeppelin thresholds; k from 500 to 1,000; DRep & SPO voting alignment. |
 
 More notes will be added to this table as they are published.
 
